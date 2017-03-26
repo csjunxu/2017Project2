@@ -66,13 +66,15 @@ First line of institution2 address\\
 
 %%%%%%%%% ABSTRACT
 \begin{abstract}
-这份报告介绍我们在科研中遇到的三个问题，以及我们提出的解决这三个问题的方案。第一个问题关于真实噪声图数据库的构建，我们提出同时利用空间和时间的信息去构建一个带有干净图的，且能同时用于real demosaicking和real image denoising的数据库，这个数据库建立在raw data上；第二个问题关于很多learning-based super-resolution, domain transfer的算法中关于mapping matrix的设计 ($\min_{\bm{W}}\|\bm{A}_{1}-\bm{W}\bm{A}_{2}\|$)，在很多算法里，这个mapping matrix是不可逆的，我们提出一系列完全可逆且几何意义明确的mapping matrices，可用于设计example-based super-resolution，domain transfer learning里的算法；第三个问题是稀疏表达框架下的正交字典学习模型和双边正交字典学习模型的收敛性问题，和加速问题。我们要用尽可能简单的方法证明正交字典学习模型和双边正交字典学习模型的收敛性，并采用Cayley transform设计新算法，从而提升带有正交约束($\bm{X}^{\top}\bm{X}=\bm{I}$)或正规化约束（$\|\bm{x}\|_{2}=1$）的大量优化算法（如字典学习）的速度。
+In this paper, we propose to simultaneously employing the spatial and temporal information to construct a real-world dataset which contain the original raw images as well as corresponding ``ground truth'' images. This dataset can be used in real world image denoising, demosaicking, and joint denoising and demosaicking (JDD) problems.
 \end{abstract}
 
 %%%%%%%%% BODY TEXT
-\section{问题1：真实噪声图数据库的构造}
+\section{Introduction}
 
-Nam et al.在发表于CVPR2016的文章\cite{crosschannel2016}里构造了一个带有``ground truth''的真实噪声图数据库，作者通过其连续拍摄500张RGB空间里的图片并且取平均来构造``ground truth'', 但是这个构造方法存在很多问题。
+According to \cite{healey1994radiometric}, the noise corrupted in the imaging process is signal dependent and comes from five main sources:\ photon shot, fixed pattern, dark current, readout, and quantization noise.
+
+Recently, Nam et al. constructed a realistic noisy images dataset \cite{crosschannel2016}, which includes noisy images of 11 static scenes.\ The noisy images were collected under controlled indoor environment.\ Each scene was shot 500 times under the same camera and camera setting.\ The mean image of the 500 shots is roughly taken as the ``ground truth", with which the PSNR can be computed. Since the image size is very large (about $7000\times5000$) and the 11 scenes share repetitive contents, the authors of \cite{crosschannel2016} cropped 15 smaller images (of size $512\times512$) to perform experiments.\
 
 主要问题1：这些图片是在RGB空间上取平均的，这是不合理的。噪声只有在raw data上才满足每个像素独立的分布，且真实噪声只有在raw data上才符合泊松分布和高斯分布，光子进入传感器可以用泊松分布来拟合，所以这部分噪声是泊松分布的。由热量产生的Dark Current噪声是泊松分布的。在readout等阶段的噪声是符合高斯分布的。但是这些分布在digital camera pipeline里经过复杂的操作，这些噪声已经不再独立，也不再是泊松分布和高斯分布的了。
 
@@ -109,126 +111,6 @@ where the window size is $(2W + 1)\times (2W + 1)$.
 主要问题1：存在图片像素过小，每张图片只有$200\times200$的大小。这是因为，为了得到干净的CFA图片，需要采用很大的下采样倍数。比如原图可能有$4000\times4000$，但是为了得到干净的CFA图片，采用$20\times20=400$倍的下采样倍数，才能得到一张非常干净的CFA图片可以用于做真实的demosaicking实验。这极大地降低了图片的内容和多样性，失去了图片原有的文理信息。这种失真严重的结果就是，在这个数据集上训练得到的demosaicking的算法不鲁棒，很容易遇到这个训练集上没有的图像块结构和文理信息。这时候我们可以借用时间上的信息，比如同样的图片拍摄10张，这10张的拍摄在0.1秒左右，在可控制的情况下，图片内容是可以保持不变的。在这种情况下，也许在空间上，我们不需要下采样那么多倍数，可以只下采样$4\times4=16$倍左右，那么依然可以得到$1000\times1000$大小的图片，依然可以保留大部分的文理，同时还可以得到质量一样的``ground truth''。
 
 综上所述，我们可以结合时间上的多次采样和空间上的下采样，得到可以同时用于真实去噪和真实demosaicking的数据库。这个数据库还有用于真实的超分辨算法训练的潜在的可能性。
-
-\section{问题2：基于学习的超分辨算法，迁移学习算法中的映射矩阵问题}
-我们用超分辨算法举例，在example-based的超分辨算法里，有一步很关键，那就是高分辨图和低分辨图之间的映射矩阵。假设是基于字典学习做超分辨，在低分辨率图像块的字典上的系数是$\bm{A}_{1}$, 在高分辨率图像块的字典上的系数是$\bm{A}_{2}$，那么需要有一个映射矩阵$\bm{W}$使得$\bm{A}_{1}$尽可能接近$\bm{W}\bm{A}_{2}$。这本质上就是一个逼近的问题，可以在orthogonal Procrustes的框架里找到非常丰富的理论和应用。但是之前所有的方法中$\bm{W}$是无法保证可逆的，而且设计原则是非常不合理的。
-
-
-
-在这里我们主要提出如下的解决方案
-\begin{equation}
-\min_{\bm{W}}\|\bm{A}_{1}-(\bm{W}\bm{A}_{2}+\bm{B})\|_{F}^{2}
-\quad
-\text{s.t.}
-\quad
-\bm{W}^{\top}\bm{W}=\bm{I}.
-\end{equation}
-其中$\bm{W}$负责旋转变换，$\bm{B}$负责平移变换。把这个框架嵌入到目前已有的算法中（比如SCDL），然后用这个模型用于真实图像去噪（在上述创建的数据库上训练），demosaicking，和超分辨，迁移学习等应用上。
-
-我们也可以提出isotropic orthogonal procrustes analysis，这是一个各向同性的线性变换：
-\begin{equation}
-\min_{\bm{W}, \alpha, \bm{B}}\|\bm{A}_{1}-(\alpha\bm{W}\bm{A}_{2}+\bm{B})\|_{F}^{2}
-\quad
-\text{s.t.}
-\quad
-\bm{W}^{\top}\bm{W}=\bm{I},
-\end{equation}
-其中$\bm{W}$是正交旋转矩阵；$\alpha$是scale factor，用于伸缩旋转矩阵； $\bm{B}$是每列都相同的矩阵，用于平移变换。这里的$\bm{W}, \alpha, \bm{B}$都有闭合解。
-
-我们还可以提出anisotropic orthogonal procrustes analysis，这是一个各向异性的非线性变换：
-\begin{equation}
-\min_{\bm{W}, \bm{S}}\|\bm{A}_{1}-(\bm{S}\bm{W}\bm{A}_{2}+\bm{B})\|_{F}^{2}
-\quad
-\text{s.t.}
-\quad
-\bm{W}^{\top}\bm{W}=\bm{I},
-\end{equation}
-这里$\bm{S}$是一个对角矩阵。同样地，$\bm{W},\bm{S},\bm{B}$都有闭合解，$\bm{S}$的闭合解还有待确认。
-
-
-
-
-\section{问题3：对正交字典学习和双边正交字典学习模型进行加速}
-
-\subsection{对正交字典学习模型进行加速}
-稀疏表达下的正交字典学习模型如下：
-\begin{equation}\label{equ5}
-\min_{\bm{D},\bm{C}}\|\bm{Y}-\bm{D}\bm{C}\|_{F}^{2}
-+
-\lambda\|\bm{C}\|_{1}
-\quad
-\text{s.t.}
-\quad
-\bm{D}^{\top}\bm{D} =\bm{I}. 
-\end{equation}
-
-a. update $\bm{C}$
-\begin{equation}
-\min_{\bm{C}}\|\bm{D}^{\top}\bm{Y}-\bm{C}\|_{F}^{2}
-+
-\lambda\|\bm{C}\|_{1}.
-\end{equation}
-有闭合解。
-
-b. update $\bm{D}$
-\begin{equation}
-\min_{\bm{D}}\|\bm{Y}-\bm{D}\bm{C}\|_{F}^{2}
-\quad
-\text{s.t.}
-\quad
-\bm{D}^{\top}\bm{D} =\bm{I}. 
-\end{equation}
-闭合解为：$\hat{\bm{D}}=\bm{V}\bm{U}^{\top}$, 其中$\bm{C}\bm{Y}^{\top}=\bm{U}\bm{\Sigma}\bm{V}^{\top}$是SVD分解。
-
-
-Since the objective function of (\ref{equ5}) is monotonically non-increasing and has the lower bound (0), it is convergent according to the famous Monotone Convergence Theorem \cite{stein2009real}. It could be reasonably terminated when the decreasing rate is smaller than a preset threshold or the number of alternating updating steps of the optimization problem reaches the maximum iteration number. 
-
-\subsection{对双边正交字典学习模型进行加速}
-
-稀疏表达下的双边（two-sided）正交字典学习模型如下：
-\begin{equation}\label{equ5}
-\min_{\bm{T},\bm{S},\bm{C}}\|\bm{Y}-\bm{T}\bm{C}\bm{S}\|_{F}^{2}
-+
-\lambda\|\bm{C}\|_{1}
-\quad
-\text{s.t.}
-\quad
-\bm{T}^{\top}\bm{T} =\bm{I},
-\bm{S}^{\top}\bm{S} =\bm{I}. 
-\end{equation}
-
-
-a. update $\bm{C}$
-\begin{equation}
-\min_{\bm{C}}\|\bm{T}^{\top}\bm{Y}\bm{S}^{\top}-\bm{C}\|_{F}^{2}
-+
-\lambda\|\bm{C}\|_{1}.
-\end{equation}
-有闭合解。
-
-b. update $\bm{T}$ and $\bm{S}$
-\begin{equation}\label{equ5}
-\min_{\bm{T},\bm{S}}\|\bm{Y}-\bm{T}\bm{C}\bm{S}\|_{F}^{2}
-\quad
-\text{s.t.}
-\quad
-\bm{T}^{\top}\bm{T} =\bm{I},
-\bm{S}^{\top}\bm{S} =\bm{I}. 
-\end{equation}
-闭合解为：$\hat{\bm{T}}=\bm{U}_{1}\bm{U}_{2}^{\top}$, $\hat{\bm{S}}=\bm{V}_{2}\bm{V}_{1}^{\top}$,
-其中，$\bm{Y}^{\top}=\bm{U}_{1}\bm{\Sigma}_{1}\bm{V}_{1}^{\top}$,
-$\bm{C}^{\top}=\bm{U}_{2}\bm{\Sigma}_{2}\bm{V}_{2}^{\top}$是SVD分解。
-
-实验证实这两个模型都是收敛的。
-目前为止，我没有看到有人证明这个模型的收敛性。
-新加坡国立大学的Hui Ji的学生Chenglong Bao在论文\cite{bao2014convergent,bao2014l0,bao2016dictionary}证明了正交字典学习模型的一个退化模型的收敛性。但是其证明非常复杂，而且对理解这个模型没有太大帮助。
-
-
-
-我们可以证明正交字典学习模型双边正交字典学习模型的收敛性。
-此外，这两个模型每一次迭代里都有SVD分解，计算量非常大，我们可以参考论文\cite{wen2013feasible}的方法，运用Cayley Transform对这两个模型进行加速。同时运用论文中的\cite{edelman1998geometry}的方法，来研究双边字典学习模型的几何性质。这个Cayley Transform技术还可以用于对带有正规化向量约束的优化问题的提速。争取也能发在和论文\cite{bao2014convergent,bao2014l0,bao2016dictionary}同等水平的会议和期刊上。这两个模型可以用在图像修复上，比如去噪。只需要和K-SVD等一些传统字典学习的方法比较效果。
-
-
 
 
 

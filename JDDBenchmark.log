@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=pdflatex 2015.9.12)  26 MAR 2017 08:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=pdflatex 2015.9.12)  26 MAR 2017 09:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1156,7 +1156,7 @@ File: UTF8.enc 2015/04/18 4.8.4
 (c:/Software/texlive/2015/texmf-dist/tex/latex/cjk/texinput/utf8/UTF8.chr
 File: UTF8.chr 2015/04/18 4.8.4
 )
-No file JDDBenchmark.aux.
+(./JDDBenchmark.aux)
 \openout1 = `JDDBenchmark.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
@@ -1242,6 +1242,7 @@ LaTeX Font Info:    ... okay on input line 42.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 42.
 LaTeX Font Info:    ... okay on input line 42.
 LaTeX Font Info:    Try loading font information for OT1+ptm on input line 42.
+
 (c:/Software/texlive/2015/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
@@ -1306,27 +1307,25 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 68.
-LaTeX Font Info:    Try loading font information for C70+rm on input line 69.
-
-(c:/Software/texlive/2015/texmf-dist/tex/latex/ctex/fd/c70rm.fd
-File: c70rm.fd 2015/07/01 v2.2 Chinese font definition (CTEX)
-)
-Package CJKpunct Info: use punctuation spaces for family 'zhkai' with punctstyl
-e (quanjiao) on input line 69.
-Package CJKpunct Info: use punctuation spaces for family 'rm' with punctstyle (
-quanjiao) on input line 73.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 75.
 
 
-Package natbib Warning: Citation `crosschannel2016' on page 1 undefined on inpu
-t line 75.
+Package natbib Warning: Citation `healey1994radiometric' on page 1 undefined on
+ input line 75.
+
+LaTeX Font Info:    Try loading font information for C70+rm on input line 79.
+(c:/Software/texlive/2015/texmf-dist/tex/latex/ctex/fd/c70rm.fd
+File: c70rm.fd 2015/07/01 v2.2 Chinese font definition (CTEX)
+)
+Package CJKpunct Info: use punctuation spaces for family 'rm' with punctstyle (
+quanjiao) on input line 79.
 
 (c:/Software/texlive/2015/texmf-dist/tex/generic/ctex/zhwindowsfonts.tex
 File: zhwindowsfonts.tex 2015/07/01 v2.2 Windows font map loader for pdfTeX and
  DVIPDFMx (CTEX)
 )
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 89.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 91.
 
 (c:/Software/texlive/2015/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
@@ -1334,102 +1333,51 @@ File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 
 
 ]
-
-Package natbib Warning: Citation `khashabi2014joint' on page 2 undefined on inp
-ut line 94.
-
-
-Package natbib Warning: Citation `khashabi2014joint' on page 2 undefined on inp
-ut line 97.
-
-<CFA.png, id=208, 440.64626pt x 213.79875pt>
+<CFA.png, id=152, 440.64626pt x 213.79875pt>
 File: CFA.png Graphic file (type png)
  <use CFA.png>
-Package pdftex.def Info: CFA.png used on input line 101.
+Package pdftex.def Info: CFA.png used on input line 103.
 (pdftex.def)             Requested size: 225.27841pt x 109.30342pt.
- [2 <./CFA.png (PNG copy)>]
+ (./JDDBenchmark.bbl
+(./JDDBenchmark.brf)
+\tf@brf=\write3
+\openout3 = `JDDBenchmark.brf'.
 
-LaTeX Warning: Reference `equ5' on page 3 undefined on input line 184.
-
-
-Package natbib Warning: Citation `stein2009real' on page 3 undefined on input l
-ine 184.
-
-
-Overfull \hbox (6.60686pt too wide) detected at line 198
-[] [] \OMS/cmsy/m/n/10 k\OML/cmm/b/it/10 Y \OMS/cmsy/m/n/10 ^^@ \OML/cmm/b/it/1
-0 TCS\OMS/cmsy/m/n/10 k[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 ^^U\OMS/cmsy/m/n/1
-0 k\OML/cmm/b/it/10 C\OMS/cmsy/m/n/10 k[] [] \OML/cmm/b/it/10 T[]T \OT1/cmr/m/n
-/10 = \OML/cmm/b/it/10 I\OML/cmm/m/it/10 ; \OML/cmm/b/it/10 S[]S \OT1/cmr/m/n/1
-0 = \OML/cmm/b/it/10 I\OML/cmm/m/it/10 :
- []
-
-
-Package natbib Warning: Citation `bao2014convergent' on page 3 undefined on inp
-ut line 224.
-
-
-Package natbib Warning: Citation `bao2014l0' on page 3 undefined on input line 
-224.
-
-
-Package natbib Warning: Citation `bao2016dictionary' on page 3 undefined on inp
-ut line 224.
-
-
-Package natbib Warning: Citation `wen2013feasible' on page 3 undefined on input
- line 229.
-
-
-Package natbib Warning: Citation `edelman1998geometry' on page 3 undefined on i
-nput line 229.
-
-
-Package natbib Warning: Citation `bao2014convergent' on page 3 undefined on inp
-ut line 229.
-
-
-Package natbib Warning: Citation `bao2014l0' on page 3 undefined on input line 
-229.
-
-
-Package natbib Warning: Citation `bao2016dictionary' on page 3 undefined on inp
-ut line 229.
-
-No file JDDBenchmark.bbl.
+)
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 241.
-[3]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 241.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 123.
+[2 <./CFA.png (PNG copy)>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 123.
  (./JDDBenchmark.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 241.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 241.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 123.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 123.
 
 
-LaTeX Warning: There were undefined references.
+Package rerunfilecheck Warning: File `JDDBenchmark.brf' has changed.
+(rerunfilecheck)                Rerun to get bibliographical references right.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 241.
+Package rerunfilecheck Info: Checksums for `JDDBenchmark.brf':
+(rerunfilecheck)             Before: E95D6532DB50F3C00F0AF2B6A4D34ADA;152
+(rerunfilecheck)             After:  6D240D361F4F41D8BA7526D724D89A42;200.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 123.
  ) 
 Here is how much of TeX's memory you used:
- 22331 strings out of 493091
- 372321 string characters out of 6134517
- 397885 words of memory out of 5000000
- 25161 multiletter control sequences out of 15000+600000
- 81280 words of font info for 257 fonts, out of 8000000 for 9000
+ 21597 strings out of 493091
+ 359228 string characters out of 6134517
+ 397154 words of memory out of 5000000
+ 24581 multiletter control sequences out of 15000+600000
+ 60593 words of font info for 181 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,10n,45p,10420b,354s stack positions out of 5000i,500n,10000p,200000b,80000s
-<c:/Windows/fonts/simhei.ttf><c:/Windows/fonts/simhei.ttf><c:/Windows/fonts/s
-imhei.ttf><c:/Windows/fonts/simhei.ttf><c:/Windows/fonts/simhei.ttf><c:/Windows
-/fonts/simhei.ttf><c:/Windows/fonts/simhei.ttf><c:/Windows/fonts/simhei.ttf><c:
-/Windows/fonts/simhei.ttf><c:/Windows/fonts/simhei.ttf><c:/Windows/fonts/simhei
-.ttf><c:/Windows/fonts/simhei.ttf><c:/Windows/fonts/simhei.ttf><c:/Windows/font
-s/simhei.ttf><c:/Windows/fonts/simhei.ttf><c:/Windows/fonts/simhei.ttf><c:/Wind
-ows/fonts/simhei.ttf><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc>
+ 41i,10n,45p,10420b,346s stack positions out of 5000i,500n,10000p,200000b,80000s
+<c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/s
+imsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows
+/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:
+/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun
+.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/font
+s/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Wind
+ows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc>
 <c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/sim
 sun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/f
 onts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/W
@@ -1447,56 +1395,25 @@ fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/
 Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.
 ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts
 /simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windo
-ws/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><
-c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/sims
-un.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fo
-nts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Wi
-ndows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.tt
-c><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/s
-imsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows
-/fonts/simsun.ttc><c:/Windows/fonts/simhei.ttf><c:/Windows/fonts/simhei.ttf><c:
-/Windows/fonts/simhei.ttf><c:/Windows/fonts/simhei.ttf><c:/Windows/fonts/simhei
-.ttf><c:/Windows/fonts/simhei.ttf><c:/Windows/fonts/simhei.ttf><c:/Windows/font
-s/simhei.ttf><c:/Windows/fonts/simhei.ttf><c:/Windows/fonts/simhei.ttf><c:/Wind
-ows/fonts/simhei.ttf><c:/Windows/fonts/simhei.ttf><c:/Windows/fonts/simhei.ttf>
-<c:/Windows/fonts/simkai.ttf><c:/Windows/fonts/simkai.ttf><c:/Windows/fonts/sim
-kai.ttf><c:/Windows/fonts/simkai.ttf><c:/Windows/fonts/simkai.ttf><c:/Windows/f
-onts/simkai.ttf><c:/Windows/fonts/simkai.ttf><c:/Windows/fonts/simkai.ttf><c:/W
-indows/fonts/simkai.ttf><c:/Windows/fonts/simkai.ttf><c:/Windows/fonts/simkai.t
-tf><c:/Windows/fonts/simkai.ttf>{c:/Software/texlive/2015/texmf-dist/fonts/enc/
-dvips/base/8r.enc}<c:/Windows/fonts/simkai.ttf><c:/Windows/fonts/simkai.ttf><c:
-/Windows/fonts/simkai.ttf><c:/Windows/fonts/simkai.ttf><c:/Windows/fonts/simkai
-.ttf><c:/Windows/fonts/simkai.ttf><c:/Windows/fonts/simkai.ttf><c:/Windows/font
-s/simkai.ttf><c:/Windows/fonts/simkai.ttf><c:/Windows/fonts/simkai.ttf><c:/Wind
-ows/fonts/simkai.ttf><c:/Windows/fonts/simkai.ttf><c:/Windows/fonts/simkai.ttf>
-<c:/Windows/fonts/simkai.ttf><c:/Windows/fonts/simkai.ttf><c:/Windows/fonts/sim
-kai.ttf><c:/Windows/fonts/simkai.ttf><c:/Windows/fonts/simkai.ttf><c:/Windows/f
-onts/simkai.ttf><c:/Windows/fonts/simkai.ttf><c:/Windows/fonts/simkai.ttf><c:/W
-indows/fonts/simkai.ttf><c:/Windows/fonts/simkai.ttf><c:/Windows/fonts/simkai.t
-tf><c:/Windows/fonts/simkai.ttf><c:/Windows/fonts/simkai.ttf><c:/Windows/fonts/
-simkai.ttf><c:/Windows/fonts/simkai.ttf><c:/Windows/fonts/simkai.ttf><c:/Window
-s/fonts/simkai.ttf><c:/Windows/fonts/simkai.ttf><c:/Windows/fonts/simkai.ttf><c
-:/Windows/fonts/simkai.ttf><c:/Software/texlive/2015/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmbx10.pfb><c:/Software/texlive/2015/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmmi10.pfb><c:/Software/texlive/2015/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmmi7.pfb><c:/Software/texlive/2015/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmmi9.pfb><c:/Software/texlive/2015/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmmib10.pfb><c:/Software/texlive/2015/texmf-dist/fonts/type1/publ
-ic/amsfonts/cmextra/cmmib7.pfb><c:/Software/texlive/2015/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmr10.pfb><c:/Software/texlive/2015/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmr7.pfb><c:/Software/texlive/2015/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmr9.pfb><c:/Software/texlive/2015/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmsy10.pfb><c:/Software/texlive/2015/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmsy7.pfb><c:/Software/texlive/2015/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmsy9.pfb><c:/Software/texlive/2015/texmf-dist/fonts/type1/urw/he
-lvetic/uhvb8a.pfb><c:/Software/texlive/2015/texmf-dist/fonts/type1/urw/helvetic
-/uhvr8a.pfb><c:/Software/texlive/2015/texmf-dist/fonts/type1/urw/times/utmb8a.p
-fb><c:/Software/texlive/2015/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/So
-ftware/texlive/2015/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on JDDBenchmark.pdf (3 pages, 528195 bytes).
+ws/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc>{
+c:/Software/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/Software/te
+xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/Software/te
+xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/Software/tex
+live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb><c:/Software/texl
+ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb><c:/Software/tex
+live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/Software/texl
+ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/Software/texliv
+e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/Software/texliv
+e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb><c:/Software/texlive
+/2015/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/Software/texlive/2015/
+texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><c:/Software/texlive/2015/texmf-
+dist/fonts/type1/urw/times/utmb8a.pfb><c:/Software/texlive/2015/texmf-dist/font
+s/type1/urw/times/utmr8a.pfb><c:/Software/texlive/2015/texmf-dist/fonts/type1/u
+rw/times/utmri8a.pfb>
+Output written on JDDBenchmark.pdf (2 pages, 322769 bytes).
 PDF statistics:
- 756 PDF objects out of 1000 (max. 8388607)
- 516 compressed objects within 6 object streams
- 20 named destinations out of 1000 (max. 500000)
+ 427 PDF objects out of 1000 (max. 8388607)
+ 270 compressed objects within 3 object streams
+ 9 named destinations out of 1000 (max. 500000)
  278 words of extra memory for PDF output out of 10000 (max. 10000000)
 

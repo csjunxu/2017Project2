@@ -1,0 +1,16 @@
+\begin{thebibliography}{1}
+
+\bibitem{crosschannel2016}
+S.~Nam, Y.~Hwang, Y.~Matsushita, and S.~J. Kim.
+\newblock A holistic approach to cross-channel image noise modeling and its
+  application to image denoising.
+\newblock {\em IEEE Conference on Computer Vision and Pattern Recognition
+  (CVPR)}, pages 1683--1691, 2016.
+
+\bibitem{khashabi2014joint}
+Daniel Khashabi, Sebastian Nowozin, Jeremy Jancsary, and Andrew~W Fitzgibbon.
+\newblock Joint demosaicing and denoising via learned nonparametric random
+  fields.
+\newblock {\em IEEE Transactions on Image Processing}, 23(12):4968--4981, 2014.
+
+\end{thebibliography}
