@@ -3,44 +3,44 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: JDDBenchmark.aux
 The style file: unsrt.bst
 Database file #1: egbib.bib
-You've used 2 entries,
+You've used 5 entries,
             1791 wiz_defined-function locations,
-            460 strings with 4001 characters,
-and the built_in function-call counts, 699 in all, are:
-= -- 67
-> -- 28
+            479 strings with 4562 characters,
+and the built_in function-call counts, 1388 in all, are:
+= -- 126
+> -- 64
 < -- 1
-+ -- 10
-- -- 8
-* -- 51
-:= -- 106
-add.period$ -- 6
-call.type$ -- 2
-change.case$ -- 2
++ -- 23
+- -- 18
+* -- 106
+:= -- 220
+add.period$ -- 15
+call.type$ -- 5
+change.case$ -- 5
 chr.to.int$ -- 0
-cite$ -- 2
-duplicate$ -- 29
-empty$ -- 59
-format.name$ -- 8
-if$ -- 156
+cite$ -- 5
+duplicate$ -- 55
+empty$ -- 123
+format.name$ -- 18
+if$ -- 304
 int.to.chr$ -- 0
-int.to.str$ -- 2
-missing$ -- 2
-newline$ -- 13
-num.names$ -- 2
-pop$ -- 4
+int.to.str$ -- 5
+missing$ -- 5
+newline$ -- 28
+num.names$ -- 5
+pop$ -- 9
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 21
+skip$ -- 32
 stack$ -- 0
-substring$ -- 71
-swap$ -- 13
+substring$ -- 123
+swap$ -- 16
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 7
-width$ -- 3
-write$ -- 24
+while$ -- 13
+width$ -- 6
+write$ -- 56

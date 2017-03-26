@@ -1,11 +1,29 @@
 \begin{thebibliography}{1}
 
+\bibitem{healey1994radiometric}
+G.~E Healey and R.~Kondepudy.
+\newblock Radiometric {CCD} camera calibration and noise estimation.
+\newblock {\em IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  16(3):267--276, 1994.
+
 \bibitem{crosschannel2016}
 S.~Nam, Y.~Hwang, Y.~Matsushita, and S.~J. Kim.
 \newblock A holistic approach to cross-channel image noise modeling and its
   application to image denoising.
 \newblock {\em IEEE Conference on Computer Vision and Pattern Recognition
   (CVPR)}, pages 1683--1691, 2016.
+
+\bibitem{NewInCamera}
+S.~J. Kim, H.~T. Lin, Z.~Lu, S.~Süsstrunk, S.~Lin, and M.~S. Brown.
+\newblock A new in-camera imaging model for color computer vision and its
+  application.
+\newblock {\em IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  34(12):2289--2302, 2012.
+
+\bibitem{karaimer_brown_ECCV_2016}
+H.~C. Karaimer and M.~S. Brown.
+\newblock A software platform for manipulating the camera imaging pipeline.
+\newblock {\em European Conference on Computer Vision (ECCV)}, October 2016.
 
 \bibitem{khashabi2014joint}
 Daniel Khashabi, Sebastian Nowozin, Jeremy Jancsary, and Andrew~W Fitzgibbon.
