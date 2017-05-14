@@ -13,18 +13,6 @@ S.~Nam, Y.~Hwang, Y.~Matsushita, and S.~J. Kim.
 \newblock {\em IEEE Conference on Computer Vision and Pattern Recognition
   (CVPR)}, pages 1683--1691, 2016.
 
-\bibitem{NewInCamera}
-S.~J. Kim, H.~T. Lin, Z.~Lu, S.~Süsstrunk, S.~Lin, and M.~S. Brown.
-\newblock A new in-camera imaging model for color computer vision and its
-  application.
-\newblock {\em IEEE Transactions on Pattern Analysis and Machine Intelligence},
-  34(12):2289--2302, 2012.
-
-\bibitem{karaimer_brown_ECCV_2016}
-H.~C. Karaimer and M.~S. Brown.
-\newblock A software platform for manipulating the camera imaging pipeline.
-\newblock {\em European Conference on Computer Vision (ECCV)}, October 2016.
-
 \bibitem{khashabi2014joint}
 Daniel Khashabi, Sebastian Nowozin, Jeremy Jancsary, and Andrew~W Fitzgibbon.
 \newblock Joint demosaicing and denoising via learned nonparametric random
