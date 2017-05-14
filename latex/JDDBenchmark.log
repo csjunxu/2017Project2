@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=pdflatex 2015.9.12)  26 MAR 2017 11:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=pdflatex 2015.9.12)  14 MAY 2017 12:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -22,36 +22,8 @@ File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-) (./iccv.sty
-(./eso-pic.sty
-Package: eso-pic 2002/11/16 v1.1b eso-pic (RN)
- (./iccv_eso.sty
-
-LaTeX Warning: You have requested package `eso-pic',
-               but the package provides `everyshi'.
-
-Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
-) (c:/Software/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks14
-))
-(c:/Software/texlive/2015/texmf-dist/tex/latex/tools/xspace.sty
-Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
-ICCV 8.5 x 11-Inch Proceedings Style `iccv.sty'.
-\@ctmp=\skip43
-\@figindent=\skip44
-\iccvrulerbox=\box26
-\iccvrulercount=\count87
-\iccvruleroffset=\dimen103
-\cv@lineheight=\dimen104
-\cv@boxheight=\dimen105
-\cv@tmpbox=\box27
-\cv@refno=\count88
-\cv@tot=\count89
-\cv@tmpc@=\count90
-\cv@tmpc=\count91
-) (c:/Software/texlive/2015/texmf-dist/tex/latex/psnfss/times.sty
+(c:/Software/texlive/2015/texmf-dist/tex/latex/psnfss/times.sty
 Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
 )
 (c:/Software/texlive/2015/texmf-dist/tex/latex/graphics/epsfig.sty
@@ -60,6 +32,10 @@ Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
 (c:/Software/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
+(c:/Software/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
 (c:/Software/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
 
@@ -80,17 +56,17 @@ Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 (c:/Software/texlive/2015/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
-\Gread@gobject=\count92
+\Gread@gobject=\count87
 ))
-\Gin@req@height=\dimen106
-\Gin@req@width=\dimen107
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
 )
-\epsfxsize=\dimen108
-\epsfysize=\dimen109
+\epsfxsize=\dimen105
+\epsfysize=\dimen106
 )
 (c:/Software/texlive/2015/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2013/01/14 v2.14 AMS math features
-\@mathmargin=\skip45
+\@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
 (c:/Software/texlive/2015/texmf-dist/tex/latex/amsmath/amstext.sty
@@ -99,49 +75,49 @@ Package: amstext 2000/06/29 v2.01
 (c:/Software/texlive/2015/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks15
-\ex@=\dimen110
+\ex@=\dimen107
 ))
 (c:/Software/texlive/2015/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
-\pmbraise@=\dimen111
+\pmbraise@=\dimen108
 )
 (c:/Software/texlive/2015/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count93
+\inf@bad=\count88
 LaTeX Info: Redefining \frac on input line 210.
-\uproot@=\count94
-\leftroot@=\count95
+\uproot@=\count89
+\leftroot@=\count90
 LaTeX Info: Redefining \overline on input line 306.
-\classnum@=\count96
-\DOTSCASE@=\count97
+\classnum@=\count91
+\DOTSCASE@=\count92
 LaTeX Info: Redefining \ldots on input line 378.
 LaTeX Info: Redefining \dots on input line 381.
 LaTeX Info: Redefining \cdots on input line 466.
-\Mathstrutbox@=\box28
-\strutbox@=\box29
-\big@size=\dimen112
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen109
 LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
-\macc@depth=\count98
-\c@MaxMatrixCols=\count99
+\macc@depth=\count93
+\c@MaxMatrixCols=\count94
 \dotsspace@=\muskip10
-\c@parentequation=\count100
-\dspbrk@lvl=\count101
+\c@parentequation=\count95
+\dspbrk@lvl=\count96
 \tag@help=\toks16
-\row@=\count102
-\column@=\count103
-\maxfields@=\count104
+\row@=\count97
+\column@=\count98
+\maxfields@=\count99
 \andhelp@=\toks17
-\eqnshift@=\dimen113
-\alignsep@=\dimen114
-\tagshift@=\dimen115
-\tagwidth@=\dimen116
-\totwidth@=\dimen117
-\lineht@=\dimen118
+\eqnshift@=\dimen110
+\alignsep@=\dimen111
+\tagshift@=\dimen112
+\tagwidth@=\dimen113
+\totwidth@=\dimen114
+\lineht@=\dimen115
 \@envbody=\toks18
-\multlinegap=\skip46
-\multlinetaggap=\skip47
+\multlinegap=\skip44
+\multlinetaggap=\skip45
 \mathdisplay@stack=\toks19
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
@@ -158,10 +134,10 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 ))
 (c:/Software/texlive/2015/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip48
-\bibsep=\skip49
+\bibhang=\skip46
+\bibsep=\skip47
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count105
+\c@NAT@ctr=\count100
 )
 (c:/Software/texlive/2015/texmf-dist/tex/latex/ctex/ctex.sty
 (c:/Software/texlive/2015/texmf-dist/tex/latex/l3kernel/expl3.sty
@@ -177,37 +153,37 @@ L3 Module: l3tl 2015/09/02 v5908 L3 Token lists
 L3 Module: l3str 2015/09/05 v5920 L3 Strings
 L3 Module: l3seq 2015/08/05 v5777 L3 Sequences and stacks
 L3 Module: l3int 2015/08/24 v5885 L3 Integers
-\c_max_int=\count106
-\l_tmpa_int=\count107
-\l_tmpb_int=\count108
-\g_tmpa_int=\count109
-\g_tmpb_int=\count110
+\c_max_int=\count101
+\l_tmpa_int=\count102
+\l_tmpb_int=\count103
+\g_tmpa_int=\count104
+\g_tmpb_int=\count105
 L3 Module: l3quark 2015/08/17 v5855 L3 Quarks
 L3 Module: l3prg 2015/08/25 v5891 L3 Control structures
-\g__prg_map_int=\count111
+\g__prg_map_int=\count106
 L3 Module: l3clist 2015/09/02 v5901 L3 Comma separated lists
 L3 Module: l3token 2015/08/26 v5893 L3 Experimental token manipulation
 L3 Module: l3prop 2015/08/05 v5777 L3 Property lists
 L3 Module: l3msg 2015/08/25 v5891 L3 Messages
 L3 Module: l3file 2015/08/05 v5786 L3 File and I/O operations
-\l_iow_line_count_int=\count112
-\l__iow_target_count_int=\count113
-\l__iow_current_line_int=\count114
-\l__iow_current_word_int=\count115
-\l__iow_current_indentation_int=\count116
+\l_iow_line_count_int=\count107
+\l__iow_target_count_int=\count108
+\l__iow_current_line_int=\count109
+\l__iow_current_word_int=\count110
+\l__iow_current_indentation_int=\count111
 L3 Module: l3skip 2015/08/26 v5893 L3 Dimensions and skips
-\c_zero_dim=\dimen119
-\c_max_dim=\dimen120
-\l_tmpa_dim=\dimen121
-\l_tmpb_dim=\dimen122
-\g_tmpa_dim=\dimen123
-\g_tmpb_dim=\dimen124
-\c_zero_skip=\skip50
-\c_max_skip=\skip51
-\l_tmpa_skip=\skip52
-\l_tmpb_skip=\skip53
-\g_tmpa_skip=\skip54
-\g_tmpb_skip=\skip55
+\c_zero_dim=\dimen116
+\c_max_dim=\dimen117
+\l_tmpa_dim=\dimen118
+\l_tmpb_dim=\dimen119
+\g_tmpa_dim=\dimen120
+\g_tmpb_dim=\dimen121
+\c_zero_skip=\skip48
+\c_max_skip=\skip49
+\l_tmpa_skip=\skip50
+\l_tmpb_skip=\skip51
+\g_tmpa_skip=\skip52
+\g_tmpb_skip=\skip53
 \c_zero_muskip=\muskip11
 \c_max_muskip=\muskip12
 \l_tmpa_muskip=\muskip13
@@ -215,62 +191,62 @@ L3 Module: l3skip 2015/08/26 v5893 L3 Dimensions and skips
 \g_tmpa_muskip=\muskip15
 \g_tmpb_muskip=\muskip16
 L3 Module: l3keys 2015/08/20 v5869 L3 Key-value interfaces
-\g__keyval_level_int=\count117
-\l_keys_choice_int=\count118
+\g__keyval_level_int=\count112
+\l_keys_choice_int=\count113
 L3 Module: l3fp 2015/08/25 v5890 L3 Floating points
-\c__fp_leading_shift_int=\count119
-\c__fp_middle_shift_int=\count120
-\c__fp_trailing_shift_int=\count121
-\c__fp_big_leading_shift_int=\count122
-\c__fp_big_middle_shift_int=\count123
-\c__fp_big_trailing_shift_int=\count124
-\c__fp_Bigg_leading_shift_int=\count125
-\c__fp_Bigg_middle_shift_int=\count126
-\c__fp_Bigg_trailing_shift_int=\count127
+\c__fp_leading_shift_int=\count114
+\c__fp_middle_shift_int=\count115
+\c__fp_trailing_shift_int=\count116
+\c__fp_big_leading_shift_int=\count117
+\c__fp_big_middle_shift_int=\count118
+\c__fp_big_trailing_shift_int=\count119
+\c__fp_Bigg_leading_shift_int=\count120
+\c__fp_Bigg_middle_shift_int=\count121
+\c__fp_Bigg_trailing_shift_int=\count122
 L3 Module: l3box 2015/08/09 v5822 L3 Experimental boxes
-\c_empty_box=\box30
-\l_tmpa_box=\box31
-\l_tmpb_box=\box32
-\g_tmpa_box=\box33
-\g_tmpb_box=\box34
+\c_empty_box=\box28
+\l_tmpa_box=\box29
+\l_tmpb_box=\box30
+\g_tmpa_box=\box31
+\g_tmpb_box=\box32
 L3 Module: l3coffins 2015/08/06 v5789 L3 Coffin code layer
-\l__coffin_internal_box=\box35
-\l__coffin_internal_dim=\dimen125
-\l__coffin_offset_x_dim=\dimen126
-\l__coffin_offset_y_dim=\dimen127
-\l__coffin_x_dim=\dimen128
-\l__coffin_y_dim=\dimen129
-\l__coffin_x_prime_dim=\dimen130
-\l__coffin_y_prime_dim=\dimen131
-\c_empty_coffin=\box36
-\l__coffin_aligned_coffin=\box37
-\l__coffin_aligned_internal_coffin=\box38
-\l_tmpa_coffin=\box39
-\l_tmpb_coffin=\box40
-\l__coffin_display_coffin=\box41
-\l__coffin_display_coord_coffin=\box42
-\l__coffin_display_pole_coffin=\box43
-\l__coffin_display_offset_dim=\dimen132
-\l__coffin_display_x_dim=\dimen133
-\l__coffin_display_y_dim=\dimen134
+\l__coffin_internal_box=\box33
+\l__coffin_internal_dim=\dimen122
+\l__coffin_offset_x_dim=\dimen123
+\l__coffin_offset_y_dim=\dimen124
+\l__coffin_x_dim=\dimen125
+\l__coffin_y_dim=\dimen126
+\l__coffin_x_prime_dim=\dimen127
+\l__coffin_y_prime_dim=\dimen128
+\c_empty_coffin=\box34
+\l__coffin_aligned_coffin=\box35
+\l__coffin_aligned_internal_coffin=\box36
+\l_tmpa_coffin=\box37
+\l_tmpb_coffin=\box38
+\l__coffin_display_coffin=\box39
+\l__coffin_display_coord_coffin=\box40
+\l__coffin_display_pole_coffin=\box41
+\l__coffin_display_offset_dim=\dimen129
+\l__coffin_display_x_dim=\dimen130
+\l__coffin_display_y_dim=\dimen131
 L3 Module: l3color 2014/08/23 v5354 L3 Experimental color support
 L3 Module: l3candidates 2015/09/03 v5911 L3 Experimental additions to l3kernel
-\l__box_top_dim=\dimen135
-\l__box_bottom_dim=\dimen136
-\l__box_left_dim=\dimen137
-\l__box_right_dim=\dimen138
-\l__box_top_new_dim=\dimen139
-\l__box_bottom_new_dim=\dimen140
-\l__box_left_new_dim=\dimen141
-\l__box_right_new_dim=\dimen142
-\l__box_internal_box=\box44
-\l__coffin_bounding_shift_dim=\dimen143
-\l__coffin_left_corner_dim=\dimen144
-\l__coffin_right_corner_dim=\dimen145
-\l__coffin_bottom_corner_dim=\dimen146
-\l__coffin_top_corner_dim=\dimen147
-\l__coffin_scaled_total_height_dim=\dimen148
-\l__coffin_scaled_width_dim=\dimen149
+\l__box_top_dim=\dimen132
+\l__box_bottom_dim=\dimen133
+\l__box_left_dim=\dimen134
+\l__box_right_dim=\dimen135
+\l__box_top_new_dim=\dimen136
+\l__box_bottom_new_dim=\dimen137
+\l__box_left_new_dim=\dimen138
+\l__box_right_new_dim=\dimen139
+\l__box_internal_box=\box42
+\l__coffin_bounding_shift_dim=\dimen140
+\l__coffin_left_corner_dim=\dimen141
+\l__coffin_right_corner_dim=\dimen142
+\l__coffin_bottom_corner_dim=\dimen143
+\l__coffin_top_corner_dim=\dimen144
+\l__coffin_scaled_total_height_dim=\dimen145
+\l__coffin_scaled_width_dim=\dimen146
 L3 Module: l3luatex 2015/06/30 v5646 L3 Experimental LuaTeX-specific functions
 )
 (c:/Software/texlive/2015/texmf-dist/tex/latex/l3kernel/l3unicode-data.def
@@ -278,17 +254,17 @@ File: l3unicode-data.def 2015/07/20 v5676 L3 Unicode data
 )
 (c:/Software/texlive/2015/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
 File: l3pdfmode.def 2015/06/30 v5646 L3 Experimental driver: PDF mode
-\l__driver_color_stack_int=\count128
+\l__driver_color_stack_int=\count123
 ))
 Package: ctex 2015/07/01 v2.2 Chinese adapter in LaTeX (CTEX)
 
 (c:/Software/texlive/2015/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 Package: xparse 2015/09/06 v5925 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count129
-\l__xparse_m_args_int=\count130
-\l__xparse_mandatory_args_int=\count131
-\l__xparse_processor_int=\count132
-\l__xparse_v_nesting_int=\count133
+\l__xparse_current_arg_int=\count124
+\l__xparse_m_args_int=\count125
+\l__xparse_mandatory_args_int=\count126
+\l__xparse_processor_int=\count127
+\l__xparse_v_nesting_int=\count128
 )
 (c:/Software/texlive/2015/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
 Package: l3keys2e 2015/09/06 v5925 LaTeX2e option processing using LaTeX3 keys
@@ -307,9 +283,9 @@ File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 (c:/Software/texlive/2015/texmf-dist/tex/latex/ms/everysel.sty
 Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 )
-\l__ctex_tmp_int=\count134
-\l__ctex_tmp_dim=\dimen150
-\l__ctex_tmp_box=\box45
+\l__ctex_tmp_int=\count129
+\l__ctex_tmp_dim=\dimen147
+\l__ctex_tmp_box=\box43
 \g__file_internal_ior=\read1
 
 (c:/Software/texlive/2015/texmf-dist/tex/latex/ctex/config/ctexopts.cfg
@@ -707,18 +683,18 @@ Now handling font encoding C62 ...
 ... no UTF-8 mapping file for font encoding C62
 )
 LaTeX Info: Redefining \selectfont on input line 755.
-\CJK@indent=\box46
+\CJK@indent=\box44
 )
 (c:/Software/texlive/2015/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 ))
 (c:/Software/texlive/2015/texmf-dist/tex/latex/cjkpunct/CJKpunct.sty
 Package: CJKpunct 2009/05/06 4.8.2
-\CJKpunct@cnta=\count135
-\CJKpunct@cntb=\count136
-\CJKpunct@cntc=\count137
-\CJKpunct@cntd=\count138
-\CJKpunct@cnte=\count139
+\CJKpunct@cnta=\count130
+\CJKpunct@cntb=\count131
+\CJKpunct@cntc=\count132
+\CJKpunct@cntd=\count133
+\CJKpunct@cnte=\count134
    defining Unicode char U+2018 (decimal 8216)
    defining Unicode char U+2019 (decimal 8217)
    defining Unicode char U+201C (decimal 8220)
@@ -739,29 +715,29 @@ Package: CJKfntef 2015/04/18 4.8.4
 Package: CJKulem 2015/04/18 4.8.4
 
 (c:/Software/texlive/2015/texmf-dist/tex/generic/ulem/ulem.sty
-\UL@box=\box47
-\UL@hyphenbox=\box48
-\UL@skip=\skip56
+\UL@box=\box45
+\UL@hyphenbox=\box46
+\UL@skip=\skip54
 \UL@hook=\toks22
-\UL@height=\dimen151
-\UL@pe=\count140
-\UL@pixel=\dimen152
-\ULC@box=\box49
+\UL@height=\dimen148
+\UL@pe=\count135
+\UL@pixel=\dimen149
+\ULC@box=\box47
 Package: ulem 2012/05/18
-\ULdepth=\dimen153
+\ULdepth=\dimen150
 )
-\UL@lastkern=\dimen154
-\CJK@skip=\skip57
+\UL@lastkern=\dimen151
+\CJK@skip=\skip55
 )
-\CJK@fntefSkip=\skip58
-\CJK@nest=\count141
-\CJK@fntefDimen=\dimen155
-\CJK@underdotBox=\box50
-\CJK@ULbox=\box51
-\CJK@underanyskip=\dimen156
+\CJK@fntefSkip=\skip56
+\CJK@nest=\count136
+\CJK@fntefDimen=\dimen152
+\CJK@underdotBox=\box48
+\CJK@ULbox=\box49
+\CJK@underanyskip=\dimen153
 )
-\ccwd=\dimen157
-\l__ctex_ccglue_skip=\skip59
+\ccwd=\dimen154
+\l__ctex_ccglue_skip=\skip57
 )
 .................................................
 . LaTeX info: "xparse/define-command"
@@ -773,7 +749,7 @@ Package: ulem 2012/05/18
 . 
 . Defining command \ziju with sig. 'm' on line 481.
 .................................................
-\l__ctex_ziju_dim=\dimen158
+\l__ctex_ziju_dim=\dimen155
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -822,15 +798,15 @@ Package: zhnumber 2015/05/21 v2.2 Typesetting numbers with Chinese glyphs
 . 
 . Defining command \zhdate with sig. '+s+m' on line 355.
 .................................................
-\l__zhnum_scale_int=\count142
+\l__zhnum_scale_int=\count137
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
 . Defining command \zhnumExtendScaleMap with sig. '>{\TrimSpaces }+o+m' on
 . line 468.
 .................................................
-\l__zhnum_byte_min_int=\count143
-\l__zhnum_byte_max_int=\count144
+\l__zhnum_byte_min_int=\count138
+\l__zhnum_byte_max_int=\count139
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -927,23 +903,23 @@ File: ctex.cfg 2015/07/01 v2.2 Configuration file (CTEX)
 )
 (c:/Software/texlive/2015/texmf-dist/tex/latex/subfigure/subfigure.sty
 Package: subfigure 2002/03/15 v2.1.5 subfigure package
-\subfigtopskip=\skip60
-\subfigcapskip=\skip61
-\subfigcaptopadj=\dimen159
-\subfigbottomskip=\skip62
-\subfigcapmargin=\dimen160
-\subfiglabelskip=\skip63
-\c@subfigure=\count145
-\c@lofdepth=\count146
-\c@subtable=\count147
-\c@lotdepth=\count148
+\subfigtopskip=\skip58
+\subfigcapskip=\skip59
+\subfigcaptopadj=\dimen156
+\subfigbottomskip=\skip60
+\subfigcapmargin=\dimen157
+\subfiglabelskip=\skip61
+\c@subfigure=\count140
+\c@lofdepth=\count141
+\c@subtable=\count142
+\c@lotdepth=\count143
 
 ****************************************
 * Local config file subfigure.cfg used *
 ****************************************
 (c:/Software/texlive/2015/texmf-dist/tex/latex/subfigure/subfigure.cfg)
-\subfig@top=\skip64
-\subfig@bottom=\skip65
+\subfig@top=\skip62
+\subfig@bottom=\skip63
 )
 (c:/Software/texlive/2015/texmf-dist/tex/latex/was/upgreek.sty
 Package: upgreek 2003/02/12 v2.0 (WaS)
@@ -953,7 +929,7 @@ LaTeX Font Info:    Overwriting symbol font `ugrf@m' in version `bold'
 (Font)                  U/eur/m/n --> U/eur/b/n on input line 38.
 )
 (c:/Software/texlive/2015/texmf-dist/tex/latex/multirow/multirow.sty
-\bigstrutjot=\dimen161
+\bigstrutjot=\dimen158
 )
 (c:/Software/texlive/2015/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2014/10/28 v1.1a Standard LaTeX Color (DPC)
@@ -974,26 +950,26 @@ LaTeX Info: Redefining \bm on input line 207.
 )
 (c:/Software/texlive/2015/texmf-dist/tex/latex/arydshln/arydshln.sty
 Package: arydshln 2004/08/31 v1.71 
-\dashlinedash=\dimen162
-\dashlinegap=\dimen163
-\adl@box=\box52
-\adl@height=\dimen164
-\adl@heightsave=\dimen165
-\adl@depth=\dimen166
-\adl@depthsave=\dimen167
-\adl@finaldepth=\dimen168
-\adl@columns=\count149
-\adl@ncol=\count150
-\adl@currentcolumn=\count151
-\adl@currentcolumnsave=\count152
-\adl@totalheight=\count153
-\adl@totalheightsave=\count154
-\adl@dash=\count155
-\adl@gap=\count156
-\adl@cla=\count157
-\adl@clb=\count158
+\dashlinedash=\dimen159
+\dashlinegap=\dimen160
+\adl@box=\box50
+\adl@height=\dimen161
+\adl@heightsave=\dimen162
+\adl@depth=\dimen163
+\adl@depthsave=\dimen164
+\adl@finaldepth=\dimen165
+\adl@columns=\count144
+\adl@ncol=\count145
+\adl@currentcolumn=\count146
+\adl@currentcolumnsave=\count147
+\adl@totalheight=\count148
+\adl@totalheightsave=\count149
+\adl@dash=\count150
+\adl@gap=\count151
+\adl@cla=\count152
+\adl@clb=\count153
 \adl@everyvbox=\toks23
-\adl@LTpagetotal=\dimen169
+\adl@LTpagetotal=\dimen166
 )
 (c:/Software/texlive/2015/texmf-dist/tex/latex/base/latexsym.sty
 Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
@@ -1008,12 +984,12 @@ Package: amsthm 2015/03/04 v2.20.2
 \thm@headfont=\toks26
 \thm@notefont=\toks27
 \thm@headpunct=\toks28
-\thm@preskip=\skip66
-\thm@postskip=\skip67
-\thm@headsep=\skip68
+\thm@preskip=\skip64
+\thm@postskip=\skip65
+\thm@headsep=\skip66
 \dth@everypar=\toks29
 )
-\c@theorem=\count159
+\c@theorem=\count154
 
 (c:/Software/texlive/2015/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
@@ -1071,16 +1047,16 @@ Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 (c:/Software/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
-\@linkdim=\dimen170
-\Hy@linkcounter=\count160
-\Hy@pagecounter=\count161
+\@linkdim=\dimen167
+\Hy@linkcounter=\count155
+\Hy@pagecounter=\count156
 
 (c:/Software/texlive/2015/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count162
+\Hy@SavedSpaceFactor=\count157
 
 (c:/Software/texlive/2015/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -1114,17 +1090,17 @@ Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 ))
-\c@Hy@tempcnt=\count163
+\c@Hy@tempcnt=\count158
 
 (c:/Software/texlive/2015/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5041.
-\XeTeXLinkMargin=\dimen171
-\Fld@menulength=\count164
-\Field@Width=\dimen172
-\Fld@charsize=\dimen173
+\XeTeXLinkMargin=\dimen168
+\Fld@menulength=\count159
+\Field@Width=\dimen169
+\Fld@charsize=\dimen170
 Package hyperref Info: Hyper figures OFF on input line 6295.
 Package hyperref Info: Link nesting OFF on input line 6300.
 Package hyperref Info: Hyper index ON on input line 6303.
@@ -1134,18 +1110,18 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6320.
 Package hyperref Info: PDF/A mode OFF on input line 6325.
 LaTeX Info: Redefining \ref on input line 6365.
 LaTeX Info: Redefining \pageref on input line 6369.
-\Hy@abspage=\count165
-\c@Item=\count166
-\c@Hfootnote=\count167
+\Hy@abspage=\count160
+\c@Item=\count161
+\c@Hfootnote=\count162
 )
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
 (c:/Software/texlive/2015/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
-\Fld@listcount=\count168
-\c@bookmark@seq@number=\count169
-\Hy@SectionHShift=\skip69
+\Fld@listcount=\count163
+\c@bookmark@seq@number=\count164
+\Hy@SectionHShift=\skip67
 )
 (c:/Software/texlive/2015/texmf-dist/tex/latex/cjk/texinput/utf8/UTF8.bdg
 File: UTF8.bdg 2015/04/18 4.8.4
@@ -1159,106 +1135,105 @@ File: UTF8.chr 2015/04/18 4.8.4
 (./JDDBenchmark.aux)
 \openout1 = `JDDBenchmark.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 42.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 37.
 
 (c:/Software/texlive/2015/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
-ABD: EveryShipout initializing macros
 (c:/Software/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count170
-\scratchdimen=\dimen174
-\scratchbox=\box53
-\nofMPsegments=\count171
-\nofMParguments=\count172
+\scratchcounter=\count165
+\scratchdimen=\dimen171
+\scratchbox=\box51
+\nofMPsegments=\count166
+\nofMParguments=\count167
 \everyMPshowfont=\toks30
-\MPscratchCnt=\count173
-\MPscratchDim=\dimen175
-\MPnumerator=\count174
-\makeMPintoPDFobject=\count175
+\MPscratchCnt=\count168
+\MPscratchDim=\dimen172
+\MPnumerator=\count169
+\makeMPintoPDFobject=\count170
 \everyMPtoPDFconversion=\toks31
 ) (c:/Software/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
@@ -1276,11 +1251,10 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 42.
-\AtBeginShipoutBox=\box54
-Package atbegshi Info: Package `everyshi' patched.
-Package backref Info: ** backref set up for natbib ** on input line 42.
-Package hyperref Info: Link coloring ON on input line 42.
+LaTeX Info: Redefining \selectfont on input line 37.
+\AtBeginShipoutBox=\box52
+Package backref Info: ** backref set up for natbib ** on input line 37.
+Package hyperref Info: Link coloring ON on input line 37.
 
 (c:/Software/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1288,84 +1262,134 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (c:/Software/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count176
+\c@section@level=\count171
 )
-LaTeX Info: Redefining \ref on input line 42.
-LaTeX Info: Redefining \pageref on input line 42.
-LaTeX Info: Redefining \nameref on input line 42.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 65.
-LaTeX Font Info:    Try loading font information for U+msa on input line 65.
+LaTeX Info: Redefining \ref on input line 37.
+LaTeX Info: Redefining \pageref on input line 37.
+LaTeX Info: Redefining \nameref on input line 37.
+LaTeX Font Info:    Try loading font information for U+msa on input line 43.
 
 (c:/Software/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 65.
+LaTeX Font Info:    Try loading font information for U+msb on input line 43.
 
 (c:/Software/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 68.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 81.
-LaTeX Font Info:    Try loading font information for C70+rm on input line 83.
 
+LaTeX Warning: No \author given.
+
+LaTeX Font Info:    Try loading font information for C70+rm on input line 43.
 (c:/Software/texlive/2015/texmf-dist/tex/latex/ctex/fd/c70rm.fd
 File: c70rm.fd 2015/07/01 v2.2 Chinese font definition (CTEX)
 )
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 47.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 54.
+
+
+Package natbib Warning: Citation `healey1994radiometric' on page 1 undefined on
+ input line 54.
+
+
+Package natbib Warning: Citation `crosschannel2016' on page 1 undefined on inpu
+t line 56.
+
+
+Package natbib Warning: Citation `crosschannel2016' on page 1 undefined on inpu
+t line 56.
+
+
+Package natbib Warning: Citation `NewInCamera' on page 1 undefined on input lin
+e 60.
+
+
+Package natbib Warning: Citation `crosschannel2016' on page 1 undefined on inpu
+t line 60.
+
+
+Package natbib Warning: Citation `karaimer_brown_ECCV_2016' on page 1 undefined
+ on input line 60.
+
 Package CJKpunct Info: use punctuation spaces for family 'rm' with punctstyle (
-quanjiao) on input line 83.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
+quanjiao) on input line 62.
 (c:/Software/texlive/2015/texmf-dist/tex/generic/ctex/zhwindowsfonts.tex
 File: zhwindowsfonts.tex 2015/07/01 v2.2 Windows font map loader for pdfTeX and
  DVIPDFMx (CTEX)
 )
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 90.
-
-(c:/Software/texlive/2015/texmf-dist/tex/latex/psnfss/ot1phv.fd
-File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
-) [1
+[1
 
 
 ]
-<CFA.png, id=150, 440.64626pt x 213.79875pt>
+
+Package natbib Warning: Citation `khashabi2014joint' on page 2 undefined on inp
+ut line 77.
+
+
+Package natbib Warning: Citation `khashabi2014joint' on page 2 undefined on inp
+ut line 80.
+
+<CFA.png, id=127, 440.64626pt x 213.79875pt>
 File: CFA.png Graphic file (type png)
  <use CFA.png>
-Package pdftex.def Info: CFA.png used on input line 105.
-(pdftex.def)             Requested size: 225.27841pt x 109.30342pt.
- (./JDDBenchmark.bbl
-(./JDDBenchmark.brf)
+Package pdftex.def Info: CFA.png used on input line 84.
+(pdftex.def)             Requested size: 218.02429pt x 105.7834pt.
+
+Underfull \vbox (badness 2503) has occurred while \output is active []
+
+ [2 <./CFA.png (PNG copy)>] (./JDDBenchmark.bbl (./JDDBenchmark.brf)
 \tf@brf=\write3
 \openout3 = `JDDBenchmark.brf'.
 
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 15.
- [2 <./CFA.png (PNG copy)>])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 125.
- [3
+)
 
-]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 125.
- (./JDDBenchmark.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 125.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 125.
-Package rerunfilecheck Info: File `JDDBenchmark.brf' has not changed.
-(rerunfilecheck)             Checksum: D7F21202A27FEBCFCA12DEBBFFBF33C3;400.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 125.
+Package natbib Warning: There were undefined citations.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 104.
+[3]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 104.
+ (./JDDBenchmark.aux
+
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
+
+)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 104.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 104.
+
+
+Package rerunfilecheck Warning: File `JDDBenchmark.brf' has changed.
+(rerunfilecheck)                Rerun to get bibliographical references right.
+
+Package rerunfilecheck Info: Checksums for `JDDBenchmark.brf':
+(rerunfilecheck)             Before: D7F21202A27FEBCFCA12DEBBFFBF33C3;400
+(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 104.
  ) 
 Here is how much of TeX's memory you used:
- 21589 strings out of 493091
- 359377 string characters out of 6134517
- 395199 words of memory out of 5000000
- 24569 multiletter control sequences out of 15000+600000
- 61112 words of font info for 182 fonts, out of 8000000 for 9000
+ 21366 strings out of 493091
+ 356555 string characters out of 6134517
+ 386819 words of memory out of 5000000
+ 24367 multiletter control sequences out of 15000+600000
+ 51000 words of font info for 164 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,10n,45p,10420b,500s stack positions out of 5000i,500n,10000p,200000b,80000s
-<c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/s
+ 41i,9n,45p,10420b,345s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/Software/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/Windows/
+fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/
+Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.
+ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts
+/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windo
+ws/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><
+c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/sims
+un.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fo
+nts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Wi
+ndows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.tt
+c><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/s
 imsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows
 /fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:
 /Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun
@@ -1379,35 +1403,21 @@ indows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.t
 tc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/
 simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Window
 s/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c
-:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsu
-n.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fon
-ts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Win
-dows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc
-><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/si
-msun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/
-fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/
-Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.
-ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts
-/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windo
-ws/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc>{
-c:/Software/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/Software/te
-xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/Software/te
-xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/Software/tex
-live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb><c:/Software/texl
-ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb><c:/Software/tex
-live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/Software/texl
-ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/Software/texliv
-e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/Software/texliv
-e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb><c:/Software/texlive
-/2015/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/Software/texlive/2015/
-texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><c:/Software/texlive/2015/texmf-
-dist/fonts/type1/urw/times/utmb8a.pfb><c:/Software/texlive/2015/texmf-dist/font
-s/type1/urw/times/utmr8a.pfb><c:/Software/texlive/2015/texmf-dist/fonts/type1/u
-rw/times/utmri8a.pfb>
-Output written on JDDBenchmark.pdf (3 pages, 322144 bytes).
+:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simhe
+i.ttf><c:/Windows/fonts/simhei.ttf><c:/Windows/fonts/simsun.ttc><c:/Windows/fon
+ts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Software/texlive/2015/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/Software/texlive/2015/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/Software/texlive/2015/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmmib10.pfb><c:/Software/texlive/2015/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/Software/texlive/2015/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/Software/texlive/2015/texmf-dist/
+fonts/type1/urw/times/utmb8a.pfb><c:/Software/texlive/2015/texmf-dist/fonts/typ
+e1/urw/times/utmr8a.pfb><c:/Software/texlive/2015/texmf-dist/fonts/type1/urw/ti
+mes/utmri8a.pfb>
+Output written on JDDBenchmark.pdf (3 pages, 286917 bytes).
 PDF statistics:
- 442 PDF objects out of 1000 (max. 8388607)
- 284 compressed objects within 3 object streams
- 13 named destinations out of 1000 (max. 500000)
+ 423 PDF objects out of 1000 (max. 8388607)
+ 268 compressed objects within 3 object streams
+ 14 named destinations out of 1000 (max. 500000)
  278 words of extra memory for PDF output out of 10000 (max. 10000000)
 
