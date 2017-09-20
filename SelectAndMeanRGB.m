@@ -33,7 +33,7 @@ for j = 1:length(d)
         fprintf(['The median and std of the intensities are ' num2str(median(SortedMeanIntensity)) ' and ' num2str(std(MeanIntensity)) '.\n']);
         %% select the n*100 index
         nsample = length(Index);
-        n100 = floor(nsample/100);
+        n100 = floor(nsample/100); 
         centerindex = floor(nsample/2);
         SelectIndex = Index(centerindex-n100*50+1:centerindex+n100*50);
         %% mean of the selected sRGB images
