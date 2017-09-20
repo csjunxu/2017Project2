@@ -32,17 +32,16 @@ n100 = floor(nsample/100);
 centerindex = floor(nsample/2);
 SelectIndex = Index(centerindex-n100*50+1:centerindex+n100*50);
 
-%% mean of raw images
+%% mean of the selected sRGB images
 D = regexp(Original_image_dir, '/', 'split');
 sRGB = double(imread(fullfile(Original_image_dir, im_dir(1).name)));
 meansRGBAll = zeros(size(sRGB));
 meansRGB500 = zeros(size(sRGB));
 for i = 1:length(SelectIndex)
-    %% read the tiff image
+    %% read the sRGB image
     sRGB = double(imread(fullfile(Original_image_dir, im_dir(SelectIndex(i)).name)));
     S = regexp(im_dir(SelectIndex(i)).name, '\.', 'split');
     rawname = S{1};
-%     fprintf('Processing %s. \n', rawname);
     meansRGBAll = meansRGBAll + sRGB;
     if mod(i, 500) == 0
         meansRGB500 = uint8(meansRGBAll./i);
