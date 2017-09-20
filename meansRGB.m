@@ -32,8 +32,6 @@ n100 = floor(nsample/100);
 centerindex = floor(nsample/2);
 SelectIndex = Index(centerindex-n100*50+1:centerindex+n100*50);
 
-
-
 %% mean of raw images
 D = regexp(Original_image_dir, '/', 'split');
 sRGB = double(imread(fullfile(Original_image_dir, im_dir(1).name)));
