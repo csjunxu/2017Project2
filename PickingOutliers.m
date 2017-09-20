@@ -1,5 +1,5 @@
 clear;
-Original_image_dir = 'C:\Users\csjunxu\Desktop\TIP2017\RID_Dataset\DatasetTIP\Canon_80D_ISO800mean\';
+Original_image_dir = 'D:\dataset_denoising\Canon5D2_5_160_3200_chair\';
 fpath = fullfile(Original_image_dir, '*.JPG');
 im_dir  = dir(fpath);
 im_num = length(im_dir);
@@ -7,7 +7,7 @@ im_num = length(im_dir);
 
 MeanIntensity = zeros(im_num, 1); % record mean intensity of each image
 ImName = cell(im_num, 1); % record the name of each image
-NumPoints = 100; % the number of points extracted from each dimension of each image
+NumPoints = 500; % the number of points extracted from each dimension of each image
 for i = 1:im_num
     Im = imread(fullfile(Original_image_dir, im_dir(i).name) ); % read image 
     ImYCbCr = rgb2ycbcr(Im); % transform from RGB to YCbCr space
