@@ -45,7 +45,7 @@ for i = 1:length(SelectIndex)
 end
 meanimage = uint8(sumsRGB./im_num);
 imshow(meanimage);
-imwrite(meanimage, [Original_image_dir 'mean/meansRGB.JPG']);
+imwrite(meanimage, [D{1} '/' D{end} 'mean/meansRGB.JPG']);
 clear sRGB sumsRGB meansRGB;
 
 
