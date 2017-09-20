@@ -26,11 +26,12 @@ end
 fprintf(['The median intensity is ' num2str(median(SortedMeanIntensity)) ' and ' num2str(SortedMeanIntensity(end)) '.\n']);
 fprintf(['The Corresponding Images are ' ImName{Index(1)} ' and ' ImName{Index(end)} '.\n']);
 
-%% select the n*100 index 
+%% 
 nsample = length(Index);
-n100 = floor(nsample/100);
+n100 = floor(nsample/200);
 centerindex = floor(nsample/2);
-SelectIndex = Index(centerindex-n100*50+1:centerindex+n100*50);
+
+SelectIndex = Index(centerindex-n100*100+1:centerindex+n100*100);
 
 
 
