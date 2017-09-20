@@ -1,7 +1,12 @@
 clear;
 cd 'D:/dataset_denoising/';
 addpath 'C:\Users\csjunxu\Documents\GitHub\Non-negativeSubspaceClustering';
-
+d = dir;
+for j = 1:length(d)
+                    if ( (d(j).isdir == 1) && ~strcmp(d(j).name,'.') && ~strcmp(d(j).name,'..') )
+                        filepath = d(j).name;
+                        eval(['cd ' filepath]);
+                        
 %% picking out the images too dark or too bright
 Original_image_dir = 'D:\dataset_denoising\Canon5D2_5_160_3200_chair';
 fpath = fullfile(Original_image_dir, '*.JPG');
