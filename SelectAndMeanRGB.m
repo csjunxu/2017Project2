@@ -7,7 +7,7 @@ cd 'C:\Users\csjunxu\Documents\GitHub\2017Project2';
 %     if ( (d(j).isdir == 1) && ~strcmp(d(j).name,'.') && ~strcmp(d(j).name,'..') )
 %         filepath = d(j).name;
 %% picking out the images too dark or too bright
-Original_image_dir = ['D:\dataset_denoising\Canon_80D_8_8_1600_corner']; % d(j).name];
+Original_image_dir = ['D:\dataset_denoising\Canon_80D_8_8_6400_comproom']; % d(j).name];
 fpath = fullfile(Original_image_dir, '*.JPG');
 im_dir  = dir(fpath);
 im_num = length(im_dir);
