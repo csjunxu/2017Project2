@@ -9,7 +9,7 @@ ImName = cell(im_num, 1); % record the name of each image
 NumPoints = 500; % the number of points extracted from each dimension of each image
 for i = 1:im_num
     fprintf(['Processing the image: ' im_dir(i).name '.\n']);
-    Im = imread(fullfile(Original_image_dir, im_dir(i).name) ); % read image 
+    Im = imread(fullfile(Original_image_dir, im_dir(i).name) ); % read image
     ImYCbCr = rgb2ycbcr(Im); % transform from RGB to YCbCr space
     clear Im;
     ImY = ImYCbCr(:, :, 1); % only use the Y channel, illumination information
@@ -22,11 +22,11 @@ for i = 1:im_num
     ImName{i, 1} = im_dir(i).name; % record the name of this image
 end
 %% sorting the images accordingto their mean intensities
-[SortedMeanIntensity, Index] = sort(MeanIntensity, 'ascend'); 
+[SortedMeanIntensity, Index] = sort(MeanIntensity, 'ascend');
 fprintf(['The median and std of the intensities are ' num2str(median(SortedMeanIntensity)) ' and ' std(MeanIntensity) '.\n']);
 fprintf(['The Corresponding Images are ' ImName{Index(1)} ' and ' ImName{Index(end)} '.\n']);
 
-%% select the n*100 index 
+%% select the n*100 index
 nsample = length(Index);
 n100 = floor(nsample/100);
 centerindex = floor(nsample/2);
@@ -37,6 +37,7 @@ D = regexp(Original_image_dir, '\', 'split');
 sRGB = double(imread(fullfile(Original_image_dir, im_dir(1).name)));
 sumsRGB = zeros(size(sRGB));
 for i = 1:length(SelectIndex)
+    fprintf(['Processing the image: ' im_dir(SelectIndex(i)).name '.\n']);
     %% read the sRGB image
     sRGB = double(imread(fullfile(Original_image_dir, im_dir(SelectIndex(i)).name)));
     S = regexp(im_dir(SelectIndex(i)).name, '\.', 'split');
