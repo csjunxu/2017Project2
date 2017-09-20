@@ -3,8 +3,8 @@ cd 'D:/dataset_denoising/';
 addpath 'C:\Users\csjunxu\Documents\GitHub\2017Project2';
 d = dir;
 cd 'C:\Users\csjunxu\Documents\GitHub\2017Project2';
-for j = 1:length(d)
-    if ( (d(j).isdir == 1) && ~strcmp(d(j).name,'.') && ~strcmp(d(j).name,'..') )
+% for j = 1:length(d)
+%     if ( (d(j).isdir == 1) && ~strcmp(d(j).name,'.') && ~strcmp(d(j).name,'..') )
         %% picking out the images too dark or too bright
         Original_image_dir = ['D:\dataset_denoising\Canon_80D_8_8_12800_printer']; % d(j).name];
         fpath = fullfile(Original_image_dir, '*.JPG');
@@ -56,6 +56,6 @@ for j = 1:length(d)
         imshow(meanimage);
         imwrite(meanimage, [write_results_dir '/' D{end} '_mean.JPG']);
         clear sRGB sumsRGB meansRGB;
-    end
-end
+%     end
+% end
 
