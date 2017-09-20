@@ -1,6 +1,6 @@
 clear;
 %% picking out the images too dark or too bright
-Original_image_dir = 'D:\dataset_denoising\Canon5D2_5_160_3200_chair\';
+Original_image_dir = 'D:\dataset_denoising\Canon5D2_5_160_3200_chair';
 fpath = fullfile(Original_image_dir, '*.JPG');
 im_dir  = dir(fpath);
 im_num = length(im_dir);
@@ -15,7 +15,7 @@ for i = 1:im_num
     ImY = ImYCbCr(:, :, 1); % only use the Y channel, illumination information
     [h, w, ch] = size(ImY); % the height and width of each image
     GridH = 1:floor(h/NumPoints):h; % record the position of points in height
-    GridW = 1:floor(w/NumPoints):w;% record the position of points in width
+    GridW = 1:floor(w/NumPoints):w; % record the position of points in width
     CropImY = ImY(GridH, GridW, ch); % extract the points, and form the cropped smaller image
     clear ImY;
     MeanIntensity(i) = mean(mean(CropImY)); % compute the mean intensity
@@ -33,27 +33,19 @@ centerindex = floor(nsample/2);
 SelectIndex = Index(centerindex-n100*50+1:centerindex+n100*50);
 
 %% mean of the selected sRGB images
-D = regexp(Original_image_dir, '/', 'split');
+D = regexp(Original_image_dir, '\', 'split');
 sRGB = double(imread(fullfile(Original_image_dir, im_dir(1).name)));
-meansRGBAll = zeros(size(sRGB));
-meansRGB500 = zeros(size(sRGB));
+sumsRGB = zeros(size(sRGB));
 for i = 1:length(SelectIndex)
     %% read the sRGB image
     sRGB = double(imread(fullfile(Original_image_dir, im_dir(SelectIndex(i)).name)));
     S = regexp(im_dir(SelectIndex(i)).name, '\.', 'split');
     rawname = S{1};
-    meansRGBAll = meansRGBAll + sRGB;
-    if mod(i, 500) == 0
-        meansRGB500 = uint8(meansRGBAll./i);
-        %         imshow(meansRGB500);
-        imwrite(meansRGB500,[D{1} 'mean/meansRGB' num2str(i) '.JPG']);
-        clear meansRGB500;
-        display(sprintf('Average: Access sample %d', i));
-    end
+    sumsRGB = sumsRGB + sRGB;
 end
-% meansRGBAll = uint8(meansRGBAll./im_num);
-% % imshow(meansRGBAll);
-% imwrite(meansRGBAll,[D{1} 'mean/meansRGBAll_ARW2TIF_TIF2PNG.JPG']);
-% clear sRGB meansRGBAll;
+meanimage = uint8(sumsRGB./im_num);
+imshow(meanimage);
+imwrite(meanimage, [Original_image_dir 'mean/meansRGB.JPG']);
+clear sRGB sumsRGB meansRGB;
 
 
