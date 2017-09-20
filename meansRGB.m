@@ -23,7 +23,7 @@ for i = 1:im_num
 end
 %% sorting the images accordingto their mean intensities
 [SortedMeanIntensity, Index] = sort(MeanIntensity, 'ascend'); 
-fprintf(['The median intensity is ' num2str(median(SortedMeanIntensity)) ' and ' num2str(SortedMeanIntensity(end)) '.\n']);
+fprintf(['The median and std of the intensities are ' num2str(median(SortedMeanIntensity)) ' and ' std(MeanIntensity) '.\n']);
 fprintf(['The Corresponding Images are ' ImName{Index(1)} ' and ' ImName{Index(end)} '.\n']);
 
 %% select the n*100 index 
