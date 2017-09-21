@@ -6,7 +6,7 @@ cd 'C:\Users\csjunxu\Documents\GitHub\2017Project2';
 % for j = 1:length(d)
 %     if ( (d(j).isdir == 1) && ~strcmp(d(j).name,'.') && ~strcmp(d(j).name,'..') )
         %% picking out the images too dark or too bright
-        Original_image_dir = ['D:\dataset_denoising\Canon_80D_8_8_12800_printer']; % d(j).name];
+        Original_image_dir = ['D:\dataset_denoising\Canon5D2_5_160_3200_chair']; % d(j).name];
         fpath = fullfile(Original_image_dir, '*.JPG');
         im_dir  = dir(fpath);
         im_num = length(im_dir);
@@ -30,6 +30,7 @@ cd 'C:\Users\csjunxu\Documents\GitHub\2017Project2';
         %% sorting the images accordingto their mean intensities
         [SortedMeanIntensity, Index] = sort(MeanIntensity, 'ascend');
         fprintf(['The median intensity is ' num2str(median(SortedMeanIntensity)) '.\n']);
+        fprintf(['The STD of intensity is ' num2str(std(SortedMeanIntensity)) '.\n']);
         fprintf(['The lowest intensity is ' num2str(SortedMeanIntensity(1)) ' in ' im_dir(Index(1)).name '.\n']);
         fprintf(['The highest intensity is ' num2str(SortedMeanIntensity(end)) ' in ' im_dir(Index(end)).name '.\n']);
         %% select the n*100 index
