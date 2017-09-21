@@ -8,9 +8,9 @@ for j = 1:length(d)
     if ( ~strcmp(d(j).name,'.') && ~strcmp(d(j).name,'..') ) % (d(j).isdir == 1) && 
         %% picking out the images too dark or too bright
         fprintf(['Processing the image: ' d(j).name '.\n']);
-        d(j).name = d(j).name(1:end-9);
+        dirname = d(j).name(1:end-9);
         fileID = fopen('record.txt','w');
-        fprintf(fileID, [d(j).name ':\n']);
+        fprintf(fileID, [dirname ':\n']);
         fclose(fileID);
         Original_image_dir = ['D:\dataset_denoising\' d(j).name];
         fpath = fullfile(Original_image_dir, '*.JPG');
@@ -20,7 +20,7 @@ for j = 1:length(d)
         ImName = cell(im_num, 1); % record the name of each image
         NumPoints = 500; % the number of points extracted from each dimension of each image
         for i = 1:im_num
-            fprintf(['Processing the ' num2str(i) 'th image: ' im_dir(i).name '.\n']);
+            fprintf(['Processing the image: ' im_dir(i).name '.\n']);
             Im = imread(fullfile(Original_image_dir, im_dir(i).name) ); % read image
             ImYCbCr = rgb2ycbcr(Im); % transform from RGB to YCbCr space
             clear Im;
