@@ -4,14 +4,14 @@ cd 'D:/selectedmeanimages/';
 addpath 'C:\Users\csjunxu\Documents\GitHub\2017Project2';
 d = dir;
 cd 'C:\Users\csjunxu\Documents\GitHub\2017Project2';
+
+fileID = fopen('record.txt','w');
 for j = 1:length(d)
-    if ( ~strcmp(d(j).name,'.') && ~strcmp(d(j).name,'..') ) % (d(j).isdir == 1) && 
+    if ( ~strcmp(d(j).name,'.') && ~strcmp(d(j).name,'..') ) % (d(j).isdir == 1) &&
         %% picking out the images too dark or too bright
         fprintf(['Processing the image: ' d(j).name '.\n']);
         d(j).name = d(j).name(1:end-9);
-        fileID = fopen('record.txt','w');
         fprintf(fileID, [d(j).name ':\n']);
-        fclose(fileID);
         Original_image_dir = ['D:\dataset_denoising\' d(j).name];
         fpath = fullfile(Original_image_dir, '*.JPG');
         im_dir  = dir(fpath);
@@ -38,11 +38,9 @@ for j = 1:length(d)
         fprintf(['The median intensity is ' num2str(median(SortedMeanIntensity)) ' in ' im_dir(Index(floor((1+length(Index))/2))).name '.\n']);
         fprintf(['The lowest intensity is ' num2str(SortedMeanIntensity(1)) ' in ' im_dir(Index(1)).name '.\n']);
         fprintf(['The highest intensity is ' num2str(SortedMeanIntensity(end)) ' in ' im_dir(Index(end)).name '.\n']);
-        fileID = fopen('record.txt','w');
         fprintf(fileID, ['The median intensity is ' num2str(median(SortedMeanIntensity)) ' in ' im_dir(Index(floor((1+length(Index))/2))).name '.\n']);
         fprintf(fileID, ['The lowest intensity is ' num2str(SortedMeanIntensity(1)) ' in ' im_dir(Index(1)).name '.\n']);
         fprintf(fileID, ['The highest intensity is ' num2str(SortedMeanIntensity(end)) ' in ' im_dir(Index(end)).name '.\n']);
-        fclose(fileID);
         %% select the n*100 index
         nsample = length(Index);
         n100 = min(floor(nsample/100), 5); % select at most 500 images
@@ -57,7 +55,7 @@ for j = 1:length(d)
         sRGB = double(imread(fullfile(Original_image_dir, im_dir(1).name)));
         sumsRGB = zeros(size(sRGB));
         for i = 1:length(SelectIndex)
-            %% read the sRGB image 
+            %% read the sRGB image
             sRGB = double(imread(fullfile(Original_image_dir, im_dir(SelectIndex(i)).name)));
             S = regexp(im_dir(SelectIndex(i)).name, '\.', 'split');
             rawname = S{1};
@@ -69,4 +67,4 @@ for j = 1:length(d)
         clear sRGB sumsRGB meansRGB;
     end
 end
-
+fclose(fileID);
