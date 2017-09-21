@@ -57,7 +57,7 @@ for j = 1:length(d)
         sRGB = double(imread(fullfile(Original_image_dir, im_dir(1).name)));
         sumsRGB = zeros(size(sRGB));
         for i = 1:length(SelectIndex)
-            %% read the sRGB image
+            %% read the sRGB image 
             sRGB = double(imread(fullfile(Original_image_dir, im_dir(SelectIndex(i)).name)));
             S = regexp(im_dir(SelectIndex(i)).name, '\.', 'split');
             rawname = S{1};
