@@ -1,1 +1,25 @@
 Canon5D2_5_160_3200_chair:
+The median intensity is 67.4526 in IMG_2580.JPG.
+The lowest intensity is 64.3155 in IMG_2175.JPG.
+The highest intensity is 69.9572 in IMG_2658.JPG.
+Canon5D2_5_160_3200_mouse:
+The median intensity is 103.5527 in IMG_3450.JPG.
+The lowest intensity is 101.537 in IMG_3276.JPG.
+The highest intensity is 105.2695 in IMG_3758.JPG.
+Canon5D2_5_160_3200_plug:
+The median intensity is 198.1953 in IMG_2934.JPG.
+The lowest intensity is 193.1106 in IMG_2736.JPG.
+The highest intensity is 202.5093 in IMG_3113.JPG.
+Canon5D2_5_160_3200_robot:
+The median intensity is 142.922 in IMG_9361.JPG.
+The lowest intensity is 137.9559 in IMG_8922.JPG.
+The highest intensity is 147.0248 in IMG_9437.JPG.
+Canon5D2_5_160_6400_bicycle:
+The median intensity is 80.7694 in IMG_2071.JPG.
+The lowest intensity is 74.0343 in IMG_1649.JPG.
+The highest intensity is 86.3837 in IMG_2050.JPG.
+Canon5D2_5_160_6400_circuit:
+The median intensity is 172.098 in IMG_0612.JPG.
+The lowest intensity is 166.9133 in IMG_0543.JPG.
+The highest intensity is 176.9697 in IMG_0833.JPG.
+Canon5D2_5_160_6400_desk:
