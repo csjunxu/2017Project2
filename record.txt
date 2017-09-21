@@ -23,3 +23,6 @@ The median intensity is 172.098 in IMG_0612.JPG.
 The lowest intensity is 166.9133 in IMG_0543.JPG.
 The highest intensity is 176.9697 in IMG_0833.JPG.
 Canon5D2_5_160_6400_desk:
+The median intensity is 129.6061 in IMG_9804.JPG.
+The lowest intensity is 125.3901 in IMG_9568.JPG.
+The highest intensity is 133.1378 in IMG_9723.JPG.
