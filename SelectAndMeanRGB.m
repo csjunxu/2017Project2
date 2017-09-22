@@ -35,17 +35,19 @@ for j = 1:length(d)
         end
         %% sorting the images accordingto their mean intensities
         [SortedMeanIntensity, Index] = sort(MeanIntensity, 'ascend');
-        fprintf(['The median intensity is ' num2str(median(SortedMeanIntensity)) ' in ' im_dir(Index(floor((1+length(Index))/2))).name '.\n']);
-        fprintf(['The lowest intensity is ' num2str(SortedMeanIntensity(1)) ' in ' im_dir(Index(1)).name '.\n']);
-        fprintf(['The highest intensity is ' num2str(SortedMeanIntensity(end)) ' in ' im_dir(Index(end)).name '.\n']);
-        fprintf(fileID, ['The median intensity is ' num2str(median(SortedMeanIntensity)) ' in ' im_dir(Index(floor((1+length(Index))/2))).name '.\n']);
-        fprintf(fileID, ['The lowest intensity is ' num2str(SortedMeanIntensity(1)) ' in ' im_dir(Index(1)).name '.\n']);
-        fprintf(fileID, ['The highest intensity is ' num2str(SortedMeanIntensity(end)) ' in ' im_dir(Index(end)).name '.\n']);
+        
         %% select the n*100 index
         nsample = length(Index);
         n100 = min(floor(nsample/100), 5); % select at most 500 images
         centerindex = floor(nsample/2);
-        SelectIndex = Index(centerindex-n100*50+1:centerindex+n100*50);
+        firstindex = centerindex-n100*50+1;
+        lastindex = centerindex+n100*50;
+        SelectIndex = Index(firstindex:lastindex);
+        fprintf(['The median intensity is ' num2str(SortedMeanIntensity(Index(centerindex))) ' in ' im_dir(Index(centerindex)).name '.\n']);
+        fprintf(['The lowest intensity is ' num2str(SortedMeanIntensity(Index(firstindex))) ' in ' im_dir(Index(firstindex)).name '.\n']);
+        fprintf(['The highest intensity is ' num2str(SortedMeanIntensity(Index(lastindex))) ' in ' im_dir(Index(lastindex)).name '.\n']);
+        SortedImName{j-2, 1} = im_dir(Index(firstindex:lastindex)).name;
+        save sortimages.mat SortedImName;
         %% mean of the selected sRGB images
         D = regexp(Original_image_dir, '\', 'split');
         write_results_dir = [D{1} '/meanimages/'];
