@@ -45,7 +45,7 @@ for j = 1:length(d)
         nsample = length(Index);
         n100 = min(floor(nsample/100), 5); % select at most 500 images
         centerindex = floor(nsample/2);
-        SelectIndex = Index(end-n100*100+1:end);
+        SelectIndex = Index(centerindex-n100*50+1:centerindex+n100*50);
         %% mean of the selected sRGB images
         D = regexp(Original_image_dir, '\', 'split');
         write_results_dir = [D{1} '/meanimages/'];
@@ -61,7 +61,7 @@ for j = 1:length(d)
             rawname = S{1};
             sumsRGB = sumsRGB + sRGB;
         end
-        meanimage = uint8(sumsRGB./im_num);
+        meanimage = uint8(sumsRGB./length(SelectIndex));
         imshow(meanimage);
         imwrite(meanimage, [write_results_dir '/' D{end} '_mean.JPG']);
         clear sRGB sumsRGB meansRGB;
