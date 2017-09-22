@@ -1,6 +1,6 @@
 clear;
 % cd 'D:/dataset_denoising/';
-cd 'D:/selectedmeanimages/';
+cd 'D:/selectedimages/';
 addpath 'C:\Users\csjunxu\Documents\GitHub\2017Project2';
 d = dir;
 cd 'C:\Users\csjunxu\Documents\GitHub\2017Project2';
