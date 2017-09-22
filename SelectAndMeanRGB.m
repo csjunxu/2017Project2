@@ -5,6 +5,7 @@ addpath 'C:\Users\csjunxu\Documents\GitHub\2017Project2';
 d = dir;
 cd 'C:\Users\csjunxu\Documents\GitHub\2017Project2';
 
+SortedImageIndex = cell(length(d)-2, 1);
 fileID = fopen('record.txt','w');
 for j = 1:length(d)
     if ( ~strcmp(d(j).name,'.') && ~strcmp(d(j).name,'..') ) % (d(j).isdir == 1) &&
@@ -49,8 +50,8 @@ for j = 1:length(d)
         fprintf(fileID, ['The median intensity is ' num2str(median(SortedMeanIntensity)) ' in ' im_dir(Index(floor((1+length(Index))/2))).name '.\n']);
         fprintf(fileID, ['The lowest intensity is ' num2str(SortedMeanIntensity(1)) ' in ' im_dir(Index(1)).name '.\n']);
         fprintf(fileID, ['The highest intensity is ' num2str(SortedMeanIntensity(end)) ' in ' im_dir(Index(end)).name '.\n']);
-        SortedImName{j-2, 1} = im_dir(Index(firstindex:lastindex)).name;
-        save sortimages.mat SortedImName;        
+        SortedImageIndex{j-2, 1} = Index(firstindex:lastindex);
+        save sortimages.mat SortedImageIndex;        
         %% mean of the selected sRGB images
         D = regexp(Original_image_dir, '\', 'split');
         write_results_dir = [D{1} '/meanimages/'];
