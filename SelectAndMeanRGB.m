@@ -46,8 +46,11 @@ for j = 1:length(d)
         fprintf(['The median intensity is ' num2str(SortedMeanIntensity(Index(centerindex))) ' in ' im_dir(Index(centerindex)).name '.\n']);
         fprintf(['The lowest intensity is ' num2str(SortedMeanIntensity(Index(firstindex))) ' in ' im_dir(Index(firstindex)).name '.\n']);
         fprintf(['The highest intensity is ' num2str(SortedMeanIntensity(Index(lastindex))) ' in ' im_dir(Index(lastindex)).name '.\n']);
+        fprintf(fileID, ['The median intensity is ' num2str(median(SortedMeanIntensity)) ' in ' im_dir(Index(floor((1+length(Index))/2))).name '.\n']);
+        fprintf(fileID, ['The lowest intensity is ' num2str(SortedMeanIntensity(1)) ' in ' im_dir(Index(1)).name '.\n']);
+        fprintf(fileID, ['The highest intensity is ' num2str(SortedMeanIntensity(end)) ' in ' im_dir(Index(end)).name '.\n']);
         SortedImName{j-2, 1} = im_dir(Index(firstindex:lastindex)).name;
-        save sortimages.mat SortedImName;
+        save sortimages.mat SortedImName;        
         %% mean of the selected sRGB images
         D = regexp(Original_image_dir, '\', 'split');
         write_results_dir = [D{1} '/meanimages/'];
