@@ -139,3 +139,15 @@ The median intensity is 110.0762 in _DSC0509.JPG.
 The lowest intensity is 83.9126 in _DSC0534.JPG.
 The highest intensity is 124.4526 in _DSC0711.JPG.
 Sony_4.5_125_1600_book:
+The median intensity is 165.2016 in _DSC6713.JPG.
+The lowest intensity is 157.1145 in _DSC7142.JPG.
+The highest intensity is 167.376 in _DSC6955.JPG.
+Sony_4.5_125_1600_toy:
+The median intensity is 116.8707 in _DSC5749.JPG.
+The lowest intensity is 114.2474 in _DSC5602.JPG.
+The highest intensity is 118.6477 in _DSC5839.JPG.
+Sony_4.5_125_3200_plant:
+The median intensity is 153.8564 in _DSC9862.JPG.
+The lowest intensity is 152.0565 in _DSC9878.JPG.
+The highest intensity is 154.8083 in _DSC9345.JPG.
+Sony_4.5_125_6400_waterhouse:
