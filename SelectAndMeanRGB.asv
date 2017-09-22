@@ -19,7 +19,7 @@ for j = 1:length(d)
         MeanIntensity = zeros(im_num, 1); % record mean intensity of each image
         ImName = cell(im_num, 1); % record the name of each image
         NumPoints = 500; % the number of points extracted from each dimension of each image
-        for i = 1:im_num
+        for i = 1:
             fprintf(['Processing the ' num2str(i) 'th image: ' im_dir(i).name '.\n']);
             Im = imread(fullfile(Original_image_dir, im_dir(i).name) ); % read image
             % ImYCbCr = rgb2ycbcr(Im); % transform from RGB to YCbCr space
@@ -33,7 +33,7 @@ for j = 1:length(d)
             MeanIntensity(i) = mean(mean(mean(CropIm))); % compute the mean intensity
             ImName{i, 1} = im_dir(i).name; % record the name of this image
         end
-        %% sorting the images accordingto their mean intensities
+        %% sorting the images accordingto their mean intensities    
         [SortedMeanIntensity, Index] = sort(MeanIntensity, 'ascend');
         fprintf(['The median intensity is ' num2str(median(SortedMeanIntensity)) ' in ' im_dir(Index(floor((1+length(Index))/2))).name '.\n']);
         fprintf(['The lowest intensity is ' num2str(SortedMeanIntensity(1)) ' in ' im_dir(Index(1)).name '.\n']);
@@ -45,7 +45,7 @@ for j = 1:length(d)
         nsample = length(Index);
         n100 = min(floor(nsample/100), 5); % select at most 500 images
         centerindex = floor(nsample/2);
-        SelectIndex = Index(end-n100*100+1:end);
+        SelectIndex = Index(centerindex-n100*50+1:centerindex+n100*50);
         %% mean of the selected sRGB images
         D = regexp(Original_image_dir, '\', 'split');
         write_results_dir = [D{1} '/meanimages/'];

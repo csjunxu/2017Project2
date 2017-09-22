@@ -2,7 +2,3 @@ Canon5D2_5_160_3200_chair:
 The median intensity is 59.8371 in IMG_2580.JPG.
 The lowest intensity is 56.202 in IMG_2175.JPG.
 The highest intensity is 62.751 in IMG_2647.JPG.
-Canon5D2_5_160_3200_mouse:
-The median intensity is 99.0592 in IMG_3746.JPG.
-The lowest intensity is 96.7498 in IMG_3276.JPG.
-The highest intensity is 100.9656 in IMG_3758.JPG.
