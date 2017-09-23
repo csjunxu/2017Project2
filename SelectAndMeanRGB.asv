@@ -8,8 +8,7 @@ cd 'C:\Users\csjunxu\Documents\GitHub\2017Project2';
 SortedImageIndex = cell(length(d)-2, 1);
 fileID = fopen('record.txt','w');
 for j = 1:length(d)
-    if ( ~strcmp(d(j).name,'.') && ~strcmp(d(j).name,'..') && ~isempty(regexp(d(j).name, 'mean')) ) 
-        % (d(j).isdir == 1)
+    if ( ~strcmp(d(j).name,'.') && ~strcmp(d(j).name,'..') && isnumeric(regexp(d(j).name, 'mean')) ) % (d(j).isdir == 1) &&
         %% picking out the images too dark or too bright
         fprintf(['Processing the image: ' d(j).name '.\n']);
         d(j).name = d(j).name(1:end-9);
