@@ -47,30 +47,30 @@ for j = 1:length(d)
         fprintf(['The median intensity is ' num2str(SortedMeanIntensity(Index(centerindex))) ' in ' im_dir(Index(centerindex)).name '.\n']);
         fprintf(['The lowest intensity is ' num2str(SortedMeanIntensity(Index(firstindex))) ' in ' im_dir(Index(firstindex)).name '.\n']);
         fprintf(['The highest intensity is ' num2str(SortedMeanIntensity(Index(lastindex))) ' in ' im_dir(Index(lastindex)).name '.\n']);
-        fprintf(fileID, ['The median intensity is ' num2str(median(SortedMeanIntensity)) ' in ' im_dir(Index(floor((1+length(Index))/2))).name '.\n']);
-        fprintf(fileID, ['The lowest intensity is ' num2str(SortedMeanIntensity(1)) ' in ' im_dir(Index(1)).name '.\n']);
-        fprintf(fileID, ['The highest intensity is ' num2str(SortedMeanIntensity(end)) ' in ' im_dir(Index(end)).name '.\n']);
-        SortedImageIndex{j-2, 1} = Index(firstindex:lastindex);
-        save sortimages.mat SortedImageIndex;        
-        %% mean of the selected sRGB images
-        D = regexp(Original_image_dir, '\', 'split');
-        write_results_dir = [D{1} '/meanimages/'];
-        if ~isdir(write_results_dir)
-            mkdir(write_results_dir);
-        end
-        sRGB = double(imread(fullfile(Original_image_dir, im_dir(1).name)));
-        sumsRGB = zeros(size(sRGB));
-        for i = 1:length(SelectIndex)
-            %% read the sRGB image
-            sRGB = double(imread(fullfile(Original_image_dir, im_dir(SelectIndex(i)).name)));
-            S = regexp(im_dir(SelectIndex(i)).name, '\.', 'split');
-            rawname = S{1};
-            sumsRGB = sumsRGB + sRGB;
-        end
-        meanimage = uint8(sumsRGB./length(SelectIndex));
-        imshow(meanimage);
-        imwrite(meanimage, [write_results_dir '/' D{end} '_mean.JPG']);
-        clear sRGB sumsRGB meansRGB;
+        fprintf(fileID, ['The median intensity is ' num2str(SortedMeanIntensity(Index(centerindex))) ' in ' im_dir(Index(centerindex)).name '.\n']);
+        fprintf(fileID, ['The lowest intensity is ' num2str(SortedMeanIntensity(Index(firstindex))) ' in ' im_dir(Index(firstindex)).name '.\n']);
+        fprintf(fileID, ['The highest intensity is ' num2str(SortedMeanIntensity(Index(lastindex))) ' in ' im_dir(Index(lastindex)).name '.\n']);
+        %         SortedImageIndex{j-2, 1} = Index(firstindex:lastindex);
+        %         save sortimages.mat SortedImageIndex;
+        %         %% mean of the selected sRGB images
+        %         D = regexp(Original_image_dir, '\', 'split');
+        %         write_results_dir = [D{1} '/meanimages/'];
+        %         if ~isdir(write_results_dir)
+        %             mkdir(write_results_dir);
+        %         end
+        %         sRGB = double(imread(fullfile(Original_image_dir, im_dir(1).name)));
+        %         sumsRGB = zeros(size(sRGB));
+        %         for i = 1:length(SelectIndex)
+        %             %% read the sRGB image
+        %             sRGB = double(imread(fullfile(Original_image_dir, im_dir(SelectIndex(i)).name)));
+        %             S = regexp(im_dir(SelectIndex(i)).name, '\.', 'split');
+        %             rawname = S{1};
+        %             sumsRGB = sumsRGB + sRGB;
+        %         end
+        %         meanimage = uint8(sumsRGB./length(SelectIndex));
+        %         imshow(meanimage);
+        %         imwrite(meanimage, [write_results_dir '/' D{end} '_mean.JPG']);
+        %         clear sRGB sumsRGB meansRGB;
     end
 end
 fclose(fileID);
