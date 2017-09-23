@@ -31,3 +31,111 @@ The median intensity is 121.3606 in IMG_1232.JPG.
 The lowest intensity is 120.8404 in IMG_1203.JPG.
 The highest intensity is 126.3979 in IMG_1477.JPG.
 Canon5D2_5_200_3200_fruit:
+The median intensity is 170.1661 in IMG_7629.JPG.
+The lowest intensity is 168.1888 in IMG_7389.JPG.
+The highest intensity is 170.5104 in IMG_7688.JPG.
+Canon5D2_5_200_3200_toy:
+The median intensity is 140.2779 in IMG_6177.JPG.
+The lowest intensity is 138.1193 in IMG_5709.JPG.
+The highest intensity is 139.6661 in IMG_6073.JPG.
+Canon600D_3.5_125_1600_waterhouse:
+The median intensity is 124.9841 in IMG_6395.JPG.
+The lowest intensity is 124.066 in IMG_6254.JPG.
+The highest intensity is 122.7868 in IMG_6171.JPG.
+Canon600D_4.5_125_1600_book:
+The median intensity is 184.9742 in IMG_4430.JPG.
+The lowest intensity is 185.6604 in IMG_4552.JPG.
+The highest intensity is 184.2619 in IMG_4319.JPG.
+Canon600D_4.5_125_1600_toy:
+The median intensity is 138.3356 in IMG_5253.JPG.
+The lowest intensity is 141.4406 in IMG_5454.JPG.
+The highest intensity is 139.3713 in IMG_5337.JPG.
+Canon80D_8_8_12800_printer:
+The median intensity is 97.306 in IMG_2005.JPG.
+The lowest intensity is 99.522 in IMG_2380.JPG.
+The highest intensity is 96.6088 in IMG_1776.JPG.
+Canon80D_8_8_1600_corner:
+The median intensity is 158.3706 in IMG_1566.JPG.
+The lowest intensity is 157.8523 in IMG_1166.JPG.
+The highest intensity is 158.1276 in IMG_1377.JPG.
+Canon80D_8_8_3200_ball:
+The median intensity is 100.8961 in IMG_9058.JPG.
+The lowest intensity is 101.8384 in IMG_9214.JPG.
+The highest intensity is 100.1305 in IMG_8718.JPG.
+Canon80D_8_8_6400_comproom:
+The median intensity is 78.9879 in IMG_0591.JPG.
+The lowest intensity is 79.5046 in IMG_0820.JPG.
+The highest intensity is 78.6205 in IMG_0412.JPG.
+Canon80D_8_8_800_GO:
+The median intensity is 132.6975 in IMG_9811.JPG.
+The lowest intensity is 132.2155 in IMG_9447.JPG.
+The highest intensity is 132.8457 in IMG_9901.JPG.
+Nikon_D800_10_100_6400_planandsofa:
+The median intensity is 110.741 in DSC_8381.JPG.
+The lowest intensity is 111.8091 in DSC_8562.JPG.
+The highest intensity is 112.6219 in DSC_8759.JPG.
+Nikon_D800_11_160_3200_classroom:
+The median intensity is 73.8635 in DSC_2802.JPG.
+The lowest intensity is 72.1112 in DSC_2560.JPG.
+The highest intensity is 71.3236 in DSC_2449.JPG.
+Nikon_D800_4.5_160_1800_classroom:
+The median intensity is 114.0393 in DSC_3479.JPG.
+The lowest intensity is 113.9156 in DSC_3469.JPG.
+The highest intensity is 114.6086 in DSC_3525.JPG.
+Nikon_D800_4.5_160_3200_classroom:
+The median intensity is 131.6702 in DSC_3035.JPG.
+The lowest intensity is 130.0867 in DSC_2994.JPG.
+The highest intensity is 136.867 in DSC_3095.JPG.
+Nikon_D800_5.6_160_6400_wall:
+The median intensity is 74.9065 in DSC_3951.JPG.
+The lowest intensity is 73.6199 in DSC_3675.JPG.
+The highest intensity is 75.7701 in DSC_4133.JPG.
+Nikon_D800_5_100_1600_map:
+The median intensity is 130.8326 in DSC_9734.JPG.
+The lowest intensity is 130.9915 in DSC_9817.JPG.
+The highest intensity is 130.2227 in DSC_9441.JPG.
+Nikon_D800_5_100_4000_flower:
+The median intensity is 102.4838 in DSC_0225.JPG.
+The lowest intensity is 102.2612 in DSC_0124.JPG.
+The highest intensity is 102.6977 in DSC_0330.JPG.
+Nikon_D800_5_100_6400_wall:
+The median intensity is 119.1201 in DSC_6020.JPG.
+The lowest intensity is 120.6298 in DSC_6501.JPG.
+The highest intensity is 118.783 in DSC_5983.JPG.
+Nikon_D800_5_125_6400_stair:
+The median intensity is 97.8627 in DSC_2239.JPG.
+The lowest intensity is 93.7585 in DSC_1874.JPG.
+The highest intensity is 96.7502 in DSC_2161.JPG.
+Nikon_D800_6.3_125_5000_plant:
+The median intensity is 126.001 in DSC_5137.JPG.
+The lowest intensity is 126.1381 in DSC_5161.JPG.
+The highest intensity is 125.5647 in DSC_5062.JPG.
+Nikon_D800_8_100_6400_bulletin:
+The median intensity is 124.7982 in DSC_5470.JPG.
+The lowest intensity is 134.2457 in DSC_5890.JPG.
+The highest intensity is 124.0907 in DSC_5419.JPG.
+Nikon_D800_8_125_6400_photo:
+The median intensity is 136.6233 in DSC_4771.JPG.
+The lowest intensity is 128.0657 in DSC_4265.JPG.
+The highest intensity is 128.2258 in DSC_4280.JPG.
+Sony_3.5_200_1600_classroom:
+The median intensity is 52.5769 in _DSC5596.JPG.
+The lowest intensity is 51.9591 in _DSC5143.JPG.
+The highest intensity is 52.5702 in _DSC5585.JPG.
+Sony_3.5_500_3200_computing:
+The median intensity is 101.176 in _DSC0734.JPG.
+The lowest intensity is 110.8608 in _DSC0806.JPG.
+The highest intensity is 81.1777 in _DSC0558.JPG.
+Sony_4.5_125_1600_book:
+The median intensity is 172.481 in _DSC7060.JPG.
+The lowest intensity is 173.8277 in _DSC7146.JPG.
+The highest intensity is 171.966 in _DSC6994.JPG.
+Sony_4.5_125_1600_toy:
+The median intensity is 113.7635 in _DSC5716.JPG.
+The lowest intensity is 114.6327 in _DSC5919.JPG.
+The highest intensity is 114.9427 in _DSC5987.JPG.
+Sony_4.5_125_3200_plant:
+The median intensity is 156.6547 in _DSC9759.JPG.
+The lowest intensity is 156.4239 in _DSC9651.JPG.
+The highest intensity is 155.0531 in _DSC9405.JPG.
+Sony_4.5_125_6400_waterhouse:
