@@ -139,3 +139,10 @@ The median intensity is 156.6547 in _DSC9759.JPG.
 The lowest intensity is 156.4239 in _DSC9651.JPG.
 The highest intensity is 155.0531 in _DSC9405.JPG.
 Sony_4.5_125_6400_waterhouse:
+The median intensity is 180.3423 in _DSC9206.JPG.
+The lowest intensity is 180.5194 in _DSC9328.JPG.
+The highest intensity is 180.2923 in _DSC9150.JPG.
+Sony_4_200_3200_door:
+The median intensity is 65.9405 in _DSC3048.JPG.
+The lowest intensity is 65.3728 in _DSC2800.JPG.
+The highest intensity is 65.7533 in _DSC2920.JPG.
