@@ -39,9 +39,9 @@ for sample = 1:nsample
         if ~isdir(write_dir)
             mkdir(write_dir);
         end
-        meanname = sprintf([write_dir GT_dir(i).name(1:end-8) '_' num2str(sample) '_mean.JPG']);
+        meanname = sprintf([write_dir GT_dir(i).name(1:end-8) num2str(sample) '_mean.JPG']);
         imwrite(cropI, meanname);
-        nimname = sprintf([write_dir nim_dir(i).name(1:end-8) '_' num2str(sample) '_real.JPG']);
+        nimname = sprintf([write_dir nim_dir(i).name(1:end-8) num2str(sample) '_real.JPG']);
         imwrite(cropnI, nimname);
     end
 end
