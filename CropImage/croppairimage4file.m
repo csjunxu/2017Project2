@@ -15,12 +15,12 @@ nim_num = length(nim_dir);
 nim_D = regexp(Original_image_dir, '/', 'split');
 
 nsample = 10;
-for herror =  0%[-1:1:1]
-    for werror = 0%[-1:1:1]
+for herror =  0% [-1:1:1]
+    for werror = 0% [-1:1:1]
         % set the image size to 512x512
         height = 512;
         width = 512;
-        for i = 23 %1:nim_num
+        for i = 19 %1:nim_num
             I =  im2double( imread(fullfile(Original_image_dir, GT_dir(i).name)) );
             nI =  im2double( imread(fullfile(Original_image_dir, nim_dir(i).name)) );
             % S = regexp(GT_dir(i).name, '_', 'split');
