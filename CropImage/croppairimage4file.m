@@ -16,7 +16,7 @@ nim_D = regexp(Original_image_dir, '/', 'split');
 
 nsample = 10;
 herror = 0;
-werror = 1;
+werror = 0;
 % Canon5D2_5_160_3200_plug£º herror = 0; werror = 0;
 
 % set the image size to 512x512
