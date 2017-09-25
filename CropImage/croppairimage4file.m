@@ -20,7 +20,7 @@ for herror =  0%[-1:1:1]
         % set the image size to 512x512
         height = 512;
         width = 512;
-        for i = 13 %1:nim_num
+        for i = 23 %1:nim_num
             I =  im2double( imread(fullfile(Original_image_dir, GT_dir(i).name)) );
             nI =  im2double( imread(fullfile(Original_image_dir, nim_dir(i).name)) );
             % S = regexp(GT_dir(i).name, '_', 'split');
