@@ -15,6 +15,8 @@ nim_num = length(nim_dir);
 nim_D = regexp(Original_image_dir, '/', 'split');
 
 nsample = 6;
+herror = 0;
+werror = 2;
 for sample = 1:nsample
     % set the image size to 512x512
     height = 512;
@@ -30,7 +32,7 @@ for sample = 1:nsample
         wi = randi( [min(w/4, w - width + 1), 3/4 * w] );
         %% 2. crop paired images
         cropI = I( hi : hi + height - 1, wi : wi + width - 1, : );
-        cropnI = nI( hi : hi + height - 1, wi : wi + width - 1, : );
+        cropnI = nI( hi+herror : hi+herror + height - 1, wi+werror : wi+werror + width - 1, : );
         fprintf('The PSNR = %2.4f, SSIM = %2.4f\n', csnr( cropnI*255, cropI*255, 0, 0 ), cal_ssim( cropnI*255, cropI*255, 0, 0 ));
         
         % imshow(cropnI);
