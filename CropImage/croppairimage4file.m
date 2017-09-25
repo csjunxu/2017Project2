@@ -14,21 +14,25 @@ nim_dir  = dir(fpath);
 nim_num = length(nim_dir);
 nim_D = regexp(Original_image_dir, '/', 'split');
 
-nsample = 6;
+nsample = 10;
 herror = 0;
-werror = 2;
-for sample = 1:nsample
-    % set the image size to 512x512
-    height = 512;
-    width = 512;
-    for i = 1:nim_num
-        I =  im2double( imread(fullfile(Original_image_dir, GT_dir(i).name)) );
-        nI =  im2double( imread(fullfile(Original_image_dir, nim_dir(i).name)) );
-        % S = regexp(GT_dir(i).name, '_', 'split');
-        % fprintf('The image is %s.\n', S{1});
-        [h, w, ch]=size(nI);
+werror = 1;
+% Canon5D2_5_160_3200_plug£º herror = 0; werror = 0;
+
+% set the image size to 512x512
+height = 512;
+width = 512;
+for i = 6 %1:nim_num
+    I =  im2double( imread(fullfile(Original_image_dir, GT_dir(i).name)) );
+    nI =  im2double( imread(fullfile(Original_image_dir, nim_dir(i).name)) );
+    % S = regexp(GT_dir(i).name, '_', 'split');
+    % fprintf('The image is %s.\n', S{1});
+    [h, w, ch]=size(nI);
+    for sample = 1:nsample
+%         rand('seed', 0)
         %% 1. randomly generate position index
         hi = randi( h - height + 1 );
+%         rand('seed', 0)
         wi = randi( [min(w/4, w - width + 1), 3/4 * w] );
         %% 2. crop paired images
         cropI = I( hi : hi + height - 1, wi : wi + width - 1, : );
